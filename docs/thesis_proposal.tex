@@ -1,0 +1,85 @@
+\documentclass[paper=a4, fontsize=11pt,twoside]{scrartcl}       % KOMA
+
+\usepackage[a4paper,pdftex]{geometry}   % A4paper margins
+\setlength{\oddsidemargin}{5mm}                 % Remove 'twosided' indentation
+\setlength{\evensidemargin}{5mm}
+
+\usepackage[english]{babel}
+\usepackage[font=footnotesize, labelfont=it]{caption}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{subfig}
+\usepackage{amsfonts}
+\usepackage[autocite = superscript, backref = true, sorting = none]{biblatex}
+\usepackage{csquotes}
+\addbibresource{proposal_bib.bib}
+\usepackage{hyperref}
+\hypersetup{
+        colorlinks=true,
+        linkcolor=blue,
+        filecolor=magenta,
+        urlcolor=blue,
+        citecolor=blue
+        }
+\urlstyle{same}
+
+\setcounter{secnumdepth}{0} % no section numbering
+\pagenumbering{gobble} % no page numbering
+
+\begin{document}
+    
+    \section{Background}
+	
+    Fitness landscape research typically models adaptation on static landscapes, where the fitness values and dimensionality of genotype space are fixed. Biologically, this simulates a population adapting to a new, constant environment, stopping once a fitness peak is reached. However, this approach does not incorporate other phenomena that occur during evolution, such as changes in the environment (otherwise known as "seascapes"), or particularly, changes in the organism's genome size (genome evolution). Since, over long time scales, both adaptation and genome evolution are processes relevant to the evolution of the organism, it is important to create a model that can incorporate both to augument our understanding of how genomes expand and streamline, and ultimately, how new genes and genomic complexity might arise. Furthermore, simulation of such an adaptive system gives rise to path dependency (a high-order autoregressive/history-dependent markov process), for which diverse literature across ecology \cite{fukamiHistoricalContingencyCommunity2015}, evolution \cite{kauffmanProlegomenonPatternsEvolution2014}, public policy \cite{petersPoliticsPathDependency2005}, and strategic management \cite{siggelkowFirmsSystemsInterdependent2011} has noted difficulty in creating general predictive frameworks. I will utilize an extension of the Rough Mount Fuji model combined with a Counter-Based Random Number Generator to model population dynamics on these "Expanding Landscapes" and explore the following questions:      
+
+    \section{Research Questions}
+
+	\subsection{Simulation/Experimental}
+
+    	    \begin{itemize}
+		
+		    \item What balance is reached between adaptation and genome evolution? Is one mechanism of navigating the landscape preferred to the other? How can this relationship be quantified?
+		    \item How does this balance shift as the ruggedness of the landscape changes? As the strength of drift changes?
+		    \item What diversity do we see arise in the population (in terms of hamming distance between genotypes, and number of unique genomes)? Is this generated continuously, or is there burstiness? \cite{gohBurstinessMemoryComplex2008}
+		    \item How repeatably are certain maxima reached, or certain loci unlocked? Under which conditions, and to what degree, does path dependency determine the order of events observed? 
+
+	    \end{itemize}
+
+	\subsection{Theoretical}
+
+	    \begin{itemize}
+   	        
+		    \item How does the formulation of the model fit into a framework of path dependent processes from literature? \cite{jacksonModelingMeasuringDistinguishing2012}
+		    \item What does a historical contingency look like in this model?
+		    \item Is there an interpretation of the model that is compatible with experimental evidence of gene evolution? That is, such that new sequences are selectively near-neutral and generally fix through drift rather than selection. \cite{lynchFrailtyAdaptiveHypotheses2007}
+		    \item Can we extend this to ecological community models? Technically all genomes and genotypes are genetically compatible. Can we modify the model to restrict reproduction between only genotypes a maximum hamming distance, and if so, do we see stable equilibria of multiple populations emerge? Additionally, niche theory predicts that the order of community assembly matters. Would the order of loci unlocking then also dictate the community composition?
+
+	    \end{itemize}
+
+    \section{Timeline}
+
+        \begin{description}
+		
+		\item [February 17] Thesis start - background research \& drafting model 
+		\item [March 7] Master thesis start form due to program admin
+		\item [March 28] THEE Project proposal due to Claudia
+		\item [March 31] Deadline to implement preliminary version of RMF model
+		\item [April 1] Reduce hours to 60\% to work on Suman's project (until August)
+		\item [May 5] Goal date to formalize theoretical basis 
+		\item [May 5] Begin drafting thesis outline (Introduction, Materials \& Methods)
+		\item [August 1] Return to 100\% work
+		\item [Sometime in August] (Mostly) stop research, 100\% writing
+		\item [August 14] \textbf{FS25 Deadline} Submit thesis to Claudia \& Stephan for grading
+		\item [September 14] \textbf{FS25 Deadline} Final thesis submission to Dean's office
+		\item [September 17] \textbf{HS25 Deadline} Submit thesis to Claudia \& Stephan for grading
+		\item [October 17] \textbf{HS25 Deadline} Final thesis submission to Dean's office
+
+	\end{description}
+
+	If I submit by the September deadline and not in October, I avoid needing to register for another semester. I am not sure if it is feasible to get the writing done in 2 weeks beginning of August, and/or if I will have the right experimental results at that time.   
+
+	\printbibliography	
+
+\end{document}

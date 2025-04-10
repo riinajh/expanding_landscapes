@@ -1,0 +1,333 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{fukamiHistoricalContingencyCommunity2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9721bbb0dfdbe7e6d9fa8eb7812ab0e7}{%
+           family={Fukami},
+           familyi={F\bibinitperiod},
+           given={Tadashi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{9721bbb0dfdbe7e6d9fa8eb7812ab0e7}
+      \strng{fullhash}{9721bbb0dfdbe7e6d9fa8eb7812ab0e7}
+      \strng{bibnamehash}{9721bbb0dfdbe7e6d9fa8eb7812ab0e7}
+      \strng{authorbibnamehash}{9721bbb0dfdbe7e6d9fa8eb7812ab0e7}
+      \strng{authornamehash}{9721bbb0dfdbe7e6d9fa8eb7812ab0e7}
+      \strng{authorfullhash}{9721bbb0dfdbe7e6d9fa8eb7812ab0e7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The order and timing of species immigration during community assembly can affect species abundances at multiple spatial scales. Known as priority effects, these effects cause historical contingency in the structure and function of communities, resulting in alternative stable states, alternative transient states, or compositional cycles. The mechanisms of priority effects fall into two categories, niche preemption and niche modification, and the conditions for historical contingency by priority effects can be organized into two groups, those regarding regional species pool properties and those regarding local population dynamics. Specifically, two requirements must be satisfied for historical contingency to occur: The regional pool contains species that can together cause priority effects, and local dynamics are rapid enough for early-arriving species to preempt or modify niches before other species arrive. Organizing current knowledge this way reveals an outstanding key question: How are regional species pools that yield priority effects generated and maintained?}
+      \field{issn}{1543-592X, 1545-2069}
+      \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{Volume 46, 2015}
+      \field{shorttitle}{Historical {{Contingency}} in {{Community Assembly}}}
+      \field{title}{Historical {{Contingency}} in {{Community Assembly}}: {{Integrating Niches}}, {{Species Pools}}, and {{Priority Effects}}}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{46}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1146/annurev-ecolsys-110411-160340
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\hughr\\Zotero\\storage\\UQZE6A79\\Fukami - 2015 - Historical Contingency in Community Assembly Integrating Niches, Species Pools, and Priority Effect.pdf;C\:\\Users\\hughr\\Zotero\\storage\\MZCKK7RP\\annurev-ecolsys-110411-160340.html
+      \endverb
+    \endentry
+    \entry{kauffmanProlegomenonPatternsEvolution2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a447063ee328386c8ceba6c257ab6bc9}{%
+           family={Kauffman},
+           familyi={K\bibinitperiod},
+           given={Stuart\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a447063ee328386c8ceba6c257ab6bc9}
+      \strng{fullhash}{a447063ee328386c8ceba6c257ab6bc9}
+      \strng{bibnamehash}{a447063ee328386c8ceba6c257ab6bc9}
+      \strng{authorbibnamehash}{a447063ee328386c8ceba6c257ab6bc9}
+      \strng{authornamehash}{a447063ee328386c8ceba6c257ab6bc9}
+      \strng{authorfullhash}{a447063ee328386c8ceba6c257ab6bc9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite Darwin, we remain children of Newton and dream of a grand theory that is epistemologically complete and would allow prediction of the evolution of the biosphere. The main purpose of this article is to show that this dream is false, and bears on studying patterns of evolution. To do so, I must justify the use of the word ``function'' in biology, when physics has only happenings. The concept of ``function'' lifts biology irreducibly above physics, for as we shall see, we cannot prestate the ever new biological functions that arise and constitute the very phase space of evolution. Hence, we cannot mathematize the detailed becoming of the biosphere, nor write differential equations for functional variables we do not know ahead of time, nor integrate those equations, so no laws ``entail'' evolution. The dream of a grand theory fails. In place of entailing laws, I propose a post-entailing law explanatory framework in which Actuals arise in evolution that constitute new boundary conditions that are enabling constraints that create new, typically unprestatable, adjacent possible opportunities for further evolution, in which new Actuals arise, in a persistent becoming. Evolution flows into a typically unprestatable succession of adjacent possibles. Given the concept of function, the concept of functional closure of an organism making a living in its world becomes central. Implications for patterns in evolution include historical reconstruction, and statistical laws such as the distribution of extinction events, or species per genus, and the use of formal cause, not efficient cause, laws.}
+      \field{issn}{0303-2647}
+      \field{journaltitle}{Biosystems}
+      \field{month}{9}
+      \field{series}{{{SI}} :{{Patterns}} in {{Evolution}}}
+      \field{title}{Prolegomenon to Patterns in Evolution}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{123}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 8}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.biosystems.2014.03.004
+      \endverb
+      \keyw{Adjacent possibles,Enabling constraints,Functional closure,Purposeless teleology,Statistical laws}
+    \endentry
+    \entry{petersPoliticsPathDependency2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4ae1357b304862c3bee4d915f0faaeda}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi Guy},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3a302b59903302bcad6b50987db03644}{%
+           family={Pierre},
+           familyi={P\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4266e9bf9c8a8ee17beb29a35146791a}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Desmond\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {[The University of Chicago Press, Southern Political Science Association]}%
+      }
+      \strng{namehash}{04923055e3d67e380a6b8627b57d7a90}
+      \strng{fullhash}{04923055e3d67e380a6b8627b57d7a90}
+      \strng{bibnamehash}{04923055e3d67e380a6b8627b57d7a90}
+      \strng{authorbibnamehash}{04923055e3d67e380a6b8627b57d7a90}
+      \strng{authornamehash}{04923055e3d67e380a6b8627b57d7a90}
+      \strng{authorfullhash}{04923055e3d67e380a6b8627b57d7a90}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The conventional critique of institutional theory, and especially historical institutionalism, is that it is incapable of coping with change. We argue for the importance of political conflict as a means of initiating change in an institutionalist framework. In particular, conflict over ideas and the underlying assumptions of policy is important for motivating change. We demonstrate the viability of this argument with examples of institutional change.}
+      \field{eprinttype}{jstor}
+      \field{issn}{0022-3816}
+      \field{journaltitle}{The Journal of Politics}
+      \field{number}{4}
+      \field{shorttitle}{The {{Politics}} of {{Path Dependency}}}
+      \field{title}{The {{Politics}} of {{Path Dependency}}: {{Political Conflict}} in {{Historical Institutionalism}}}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{67}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{1275\bibrangedash 1300}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1111/j.1468-2508.2005.00360.x
+      \endverb
+      \verb{eprint}
+      \verb 10.1111/j.1468-2508.2005.00360.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\BPERYYJC\Peters et al. - 2005 - The Politics of Path Dependency Political Conflict in Historical Institutionalism.pdf
+      \endverb
+    \endentry
+    \entry{siggelkowFirmsSystemsInterdependent2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ccff815b812a6a91bf69b3c5c6793d01}{%
+           family={Siggelkow},
+           familyi={S\bibinitperiod},
+           given={Nicolaj},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{fullhash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{bibnamehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{authorbibnamehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{authornamehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{authorfullhash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Managers within firms have to make choices along a large number of dimensions; for instance, how to configure activities involving manufacturing and marketing, and which organizational design to employ. Since these choices interact with each other, firms can be conceived of as systems of interdependent choices. In this article, I discuss research that addresses three questions that naturally arise in this context. First, how do such systems evolve over time? Second, what role does organizational design play in whether a firm will arrive at a consistent and high-performing set of choices? Third, what are the consequences of cognitive limitations by decision makers when faced with such complex systems? The article concludes by sketching out possible future directions of research in this domain.}
+      \field{issn}{0022-2380, 1467-6486}
+      \field{journaltitle}{Journal of Management Studies}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{5}
+      \field{title}{Firms as {{Systems}} of {{Interdependent Choices}}}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{48}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{1126\bibrangedash 1140}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/j.1467-6486.2011.01010.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\EX754VQC\Siggelkow - 2011 - Firms as Systems of Interdependent Choices.pdf
+      \endverb
+    \endentry
+    \entry{gohBurstinessMemoryComplex2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1f5edbd1201d5c65aca26feb1d246758}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={K.-I.},
+           giveni={K\bibinithyphendelim I\bibinitperiod}}}%
+        {{hash=953467ea1b8e328ccd298c4b59a43b26}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={A.-L.},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4fc05a8fe5c9371ad97cd36722fe371}
+      \strng{fullhash}{b4fc05a8fe5c9371ad97cd36722fe371}
+      \strng{bibnamehash}{b4fc05a8fe5c9371ad97cd36722fe371}
+      \strng{authorbibnamehash}{b4fc05a8fe5c9371ad97cd36722fe371}
+      \strng{authornamehash}{b4fc05a8fe5c9371ad97cd36722fe371}
+      \strng{authorfullhash}{b4fc05a8fe5c9371ad97cd36722fe371}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dynamics of a wide range of real systems, from email patterns to earthquakes, display a bursty, intermittent nature, characterized by short timeframes of intense activity followed by long times of no or reduced activity. The understanding of the origin of such bursty patterns is hindered by the lack of tools to compare different systems using a common framework. Here we propose to characterize the bursty nature of real signals using orthogonal measures quantifying two distinct mechanisms leading to burstiness: the interevent time distribution and the memory. We find that while the burstiness of natural phenomena is rooted in both the interevent time distribution and memory, for human dynamics memory is weak, and the bursty character is due to the changes in the interevent time distribution. Finally, we show that current models lack in their ability to reproduce the activity pattern observed in real systems, opening up avenues for future work.}
+      \field{issn}{0295-5075}
+      \field{journaltitle}{Europhysics Letters}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{Burstiness and Memory in Complex Systems}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{81}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{48002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1209/0295-5075/81/48002
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\FFFEQKQ9\Goh and Barabási - 2008 - Burstiness and memory in complex systems.pdf
+      \endverb
+    \endentry
+    \entry{jacksonModelingMeasuringDistinguishing2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=90ea319b1a914ad27f9e6a366c0122c0}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=98745dc18a955d8e34c55f061548e85b}{%
+           family={Kollman},
+           familyi={K\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e3a07974d3646b2010a52642a3c2ec6}
+      \strng{fullhash}{1e3a07974d3646b2010a52642a3c2ec6}
+      \strng{bibnamehash}{1e3a07974d3646b2010a52642a3c2ec6}
+      \strng{authorbibnamehash}{1e3a07974d3646b2010a52642a3c2ec6}
+      \strng{authornamehash}{1e3a07974d3646b2010a52642a3c2ec6}
+      \strng{authorfullhash}{1e3a07974d3646b2010a52642a3c2ec6}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Path dependence is commonly used to describe processes where ``history matters,'' which encompasses many different kinds of temporal dynamics. This essay distinguishes path-, or equilibrium-, dependent processes where early conditions continue to matter, from outcome-dependent processes where recent history matters and from outcome-independent processes where history does not matter. Others have argued for a precise and restrictive definition of path dependence. We build on this and distinguish among different types of outcome-dependent processes when these conditions for path dependence are not fully satisfied.}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{journaltitle}{Political Analysis}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Modeling, {{Measuring}}, and {{Distinguishing Path Dependence}}, {{Outcome Dependence}}, and {{Outcome Independence}}}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{157\bibrangedash 174}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1093/pan/mpr050
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\8UVS3X22\Jackson and Kollman - 2012 - Modeling, Measuring, and Distinguishing Path Dependence, Outcome Dependence, and Outcome Independenc.pdf
+      \endverb
+    \endentry
+    \entry{lynchFrailtyAdaptiveHypotheses2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9cc21f36b11b9279d8f08ccb61aa96b0}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Proceedings of the National Academy of Sciences}%
+      }
+      \strng{namehash}{9cc21f36b11b9279d8f08ccb61aa96b0}
+      \strng{fullhash}{9cc21f36b11b9279d8f08ccb61aa96b0}
+      \strng{bibnamehash}{9cc21f36b11b9279d8f08ccb61aa96b0}
+      \strng{authorbibnamehash}{9cc21f36b11b9279d8f08ccb61aa96b0}
+      \strng{authornamehash}{9cc21f36b11b9279d8f08ccb61aa96b0}
+      \strng{authorfullhash}{9cc21f36b11b9279d8f08ccb61aa96b0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The vast majority of biologists engaged in evolutionary studies interpret virtually every aspect of biodiversity in adaptive terms. This narrow view of evolution has become untenable in light of recent observations from genomic sequencing and population-genetic theory. Numerous aspects of genomic architecture, gene structure, and developmental pathways are difficult to explain without invoking the nonadaptive forces of genetic drift and mutation. In addition, emergent biological features such as complexity, modularity, and evolvability, all of which are current targets of considerable speculation, may be nothing more than indirect by-products of processes operating at lower levels of organization. These issues are examined in the context of the view that the origins of many aspects of biological diversity, from gene-structural embellishments to novelties at the phenotypic level, have roots in nonadaptive processes, with the population-genetic environment imposing strong directionality on the paths that are open to evolutionary exploitation.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{5}
+      \field{number}{suppl\_1}
+      \field{title}{The Frailty of Adaptive Hypotheses for the Origins of Organismal Complexity}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{104}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{8597\bibrangedash 8604}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1073/pnas.0702207104
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\47HU6GZ8\Lynch - 2007 - The frailty of adaptive hypotheses for the origins of organismal complexity.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
