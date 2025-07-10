@@ -330,7 +330,7 @@ Function to take output dataframe from simulation and generate time-series plots
 5. genotype richness (# of genotypes per genome)
 6. genome richness (# of genomes)
 """
-function generate_plots(data::DataFrame, save = false)
+function generate_plots(data::DataFrame, save::Bool = false)
     
     df_counts, df_full_steps, df_genome_counts, df_per_genome_genotypes, df_avg_fitness, df_genome_size_pnine, sweeps = process_data(df_genotypes)
 
@@ -365,6 +365,35 @@ function generate_plots(data::DataFrame, save = false)
     return output_plot
 end
 
+"""
+A function to initialize the multiple different pseudorandom number generators that are needed in the simulation. Running this function before a simulation makes it reproducible.
+"""
+function initialize_prngs(; default_seed = 100, additive_seed = 100, genotype_seed = 100, genome_seed = 100, mutation_seed = 100)
+    # Initializing different prngs so that different replicates can be run
+    rng_default = Xoshiro(default_seed)
+    #Random.seed!(rng_default, default_seed)
+    
+    # Seeding a rng for additive effects
+    # changing this changes the topography of the landscape, depending on ruggedness
+    rng_additive = Xoshiro(additive_seed)
+    #Random.seed!(rng_additive, additive_seed)
+    
+    # initializing a rng for genotype generation
+    # changing this changes the initial genotype generated
+    rng_init_genotype = Xoshiro(genotype_seed)
+    #Random.seed!(rng_init_genotype, genotype_seed)
+    
+    # and a separate one for the initial genome
+    # changing this changes the initial genome generated
+    rng_init_genome = Xoshiro(genome_seed)
+    #Random.seed!(rng_init_genome, genome_seed)
+    
+    # as well as which mutants are created each generation (modeling different "decisions")
+    mutation_seed = 100 # changing this should change which decisions are made from some starting point
+    rng_mutation = Xoshiro(mutation_seed)
+    #Random.seed!(rng_mutations, mutation_seed)
+    return (rng_default, rng_additive, rng_init_genotype, rng_init_genome, rng_mutation)
+end
 
 #= an example initialization:
 
