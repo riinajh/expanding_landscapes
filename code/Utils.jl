@@ -32,7 +32,7 @@ end
 """
 Generates a vector of locus-wise effects, with bounds depending on the type of calculation used for the additive fitness effects
 """
-function generate_additive_effects(loci::Int)
+function generate_additive_effects(rng_additive, loci::Int)
     return rand(rng_additive, Normal(0, 1), loci)
 end
 
@@ -65,7 +65,7 @@ end
 Function to determine if, how many, and which mutants a population of genotypes/genomes will generate
 """
 # we now pass in a population tuple (genotype, genome) for each in the current simulation
-function generate_mutants!(population::Tuple, genotype_dictionary::Dict, current_populations::Dict, μ::AbstractFloat, M::AbstractFloat, loci::Int, additive_effects)
+function generate_mutants!(population::Tuple, genotype_dictionary::Dict, current_populations::Dict, μ::AbstractFloat, M::AbstractFloat, loci::Int, additive_effects, rng_mutation)
     genotype::UInt128 = population[1] # renaming for readability
     genome::UInt128 = population[2]
     for i in 1:current_populations[population].size # fetch the number of individuals in this population and do for each individual:
@@ -196,7 +196,7 @@ end
 """
 function to simulate a wright-fisher population with non-overlapping generations on a rough mount fuji landscape
 """
-function simulate(loci, init_active_loci, max_init_genotype_bits, total_population, epistasis, μ, M, simulation_length, model = "rmf")
+function simulate(loci, init_active_loci, max_init_genotype_bits, total_population, epistasis, μ, M, simulation_length, rng_init_genome, rng_init_genotype, rng_default, rng_mutation, additive_effects; model = "rmf")
     # Initialize some parameters and objects
     num_genotypes = 1 # leaving this in for posterity
     genotype_dictionary = Dict{Tuple, Genotype}() # keys are stored as a tuple of the genotype(integer) and its genome, and the genotype object as values
@@ -247,7 +247,7 @@ function simulate(loci, init_active_loci, max_init_genotype_bits, total_populati
         # generate mutants
         current_populations = deepcopy(genotype_dictionary) # avoiding a mutate over iterable issue
         for population in keys(current_populations)
-            generate_mutants!(population, genotype_dictionary, current_populations, μ, M, loci, additive_effects)
+            generate_mutants!(population, genotype_dictionary, current_populations, μ, M, loci, additive_effects, rng_mutation)
         end
             
         # reassign population sizes based on fitness
@@ -282,7 +282,7 @@ end
 """
 Function to process the dataframe output of simulations to obtain relevant time-series metrics (mutation type balance, average fitness, etc.)
 """
-function process_data(data::DataFrame)
+function process_data(data::DataFrame, μ, M, additive_effects, σ_epi)
     
     # obtaining cumulative genotype/genomes over time. Can calculate burstiness from this.
     genotype_counts = countmap(data.Step) # obtain dict of counts for each time step (= number of genotype/genomes at that step)
@@ -305,7 +305,7 @@ function process_data(data::DataFrame)
 
     df_genome_counts = combine(groupby(data, [:Step]), :Genome => (x -> length(unique(collect(x)))) => :GenomeRichness)
 
-    major_genotypes = @chain df_genotypes begin
+    major_genotypes = @chain data begin
         groupby(:Step)
         combine(df -> df[argmax(df.Pop), :], _)
     end
