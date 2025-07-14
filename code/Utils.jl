@@ -47,7 +47,7 @@ function get_fitness(genotype::UInt128, genome::UInt128, additive_effects, σ_ep
         set_counter!(rng_cbrng, genotype) # set the index of the cbrng counter to the base10 genotype (prepare to retrieve its fitness)
         μ_epi::Float64 = 0 # I believe this is default in the rmf model
         epistatic_component = rand(rng_cbrng, Normal(μ_epi, σ_epi)) # we can indeed use a random sample of the normal distribution
-        additive_component = sum(digits(genome, base = 2, pad = 128) .* digits(genotype, base = 2, pad = 128) .* additive_effects) # padding now goes to 128, the maximum possible landscape size. 
+        additive_component = sum(digits(genome, base = 2, pad = 128) .* digits(genotype, base = 2, pad = 128) .* additive_effects) # padding now goes to 128, the maximum possible landscape size. This then uses fitness values starting from the RIGHT SIDE of the additive effects vector, proceeding to the left.
         return exp(additive_component + epistatic_component)
     end
 end
@@ -330,9 +330,9 @@ Function to take output dataframe from simulation and generate time-series plots
 5. genotype richness (# of genotypes per genome)
 6. genome richness (# of genomes)
 """
-function generate_plots(data::DataFrame, save::Bool = false)
+function generate_plots(data::DataFrame, μ, M, additive_effects, σ_epi; save::Bool = false)
     
-    df_counts, df_full_steps, df_genome_counts, df_per_genome_genotypes, df_avg_fitness, df_genome_size_pnine, sweeps = process_data(df_genotypes)
+    df_counts, df_full_steps, df_genome_counts, df_per_genome_genotypes, df_avg_fitness, df_genome_size_pnine, sweeps = process_data(df_genotypes, μ, M, additive_effects, σ_epi)
 
     # counting the number of unique genotypes/genomes seen
     plot_c1r1 = plot(df_counts.Step, df_full_steps.Cumulative, legend = false, title = "Cumulative Unique Genotype/Genome Pairs")
