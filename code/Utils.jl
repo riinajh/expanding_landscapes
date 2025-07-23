@@ -82,7 +82,7 @@ function generate_mutants!(population::Tuple, genotype_dictionary::Dict, current
                 if test_flip != 0 # ensuring we cannot generate something with no genome
                     new_genome = test_flip
                     active_genome_bits = findall(x -> x == true, digits(new_genome, base = 2, pad = 128)) # and then update the active bits possible for mutations
-                    new_genotype *= new_genome # reset loci in the genotype to 0 if they are 0 in the genome. Otherwise fitness calc will be incorrect
+                    new_genotype &= new_genome # reset loci in the genotype to 0 if they are 0 in the genome. Otherwise fitness calc will be incorrect
                     events[2] -= 1
                 end
             elseif mutation_type == 0 && events[1] > 0 && length(active_genome_bits) > 0 # else if there is a mutation event generated
