@@ -12,7 +12,7 @@ using Dates
 =#
 
 """
-We now represent genotypes (with potentially different genomes) and their size
+We now represent genotypes (with potentially different genomes) and their size.
 """
 mutable struct Genotype
     genotype::Unsigned # base 10 representation of the genotype (up to UInt128)
@@ -22,7 +22,7 @@ mutable struct Genotype
 end
 
 """
-Outer constructor to take arguments, calculate fitness, and instantiate a new Genotype object with that fitness
+Outer constructor to take arguments, calculate fitness, and instantiate a new Genotype object with that fitness.
 """
 function Genotype(genotype, genome, size, additive_effects, σ_epi, model = "rmf")
     fitness = get_fitness(genotype, genome, additive_effects, σ_epi) # these parameters are passed in from the global scope
@@ -30,7 +30,7 @@ function Genotype(genotype, genome, size, additive_effects, σ_epi, model = "rmf
 end
 
 """
-Generates a vector of locus-wise effects, with bounds depending on the type of calculation used for the additive fitness effects
+Generates a vector of locus-wise effects, with bounds depending on the type of calculation used for the additive fitness effects.
 """
 function generate_additive_effects(rng_additive, loci::Int)
     return rand(rng_additive, Normal(0, 1), loci)
@@ -38,7 +38,7 @@ end
 
 """
 Takes a base10 genotype, loci present in genome, and other fitness landscape params, and returns the calculated fitness value.\n
-Utilizes the cbrng to efficiently and reproducibly find the fitness of a genotype on a landscape
+Utilizes the cbrng to efficiently and reproducibly find the fitness of a genotype on a landscape.
 """
 function get_fitness(genotype::UInt128, genome::UInt128, additive_effects, σ_epi, model = "rmf")
     # optional to pass in some model parameters here. start with rmf: μ_add, σ_add, σ_epi, additive_effects
@@ -54,7 +54,7 @@ end
 
 """
 Function to flip a bit k (from the binary representation) within a base 10 number x and return in base 10\n  
-this enables us to avoid working in binary and hopefully avoid binary<>base10 conversions
+this enables us to avoid working in binary and hopefully avoid binary<>base10 conversions.
 """
 function flip_bit(x::T, k::Int) where T <: Unsigned
     #return (x + (-1)^(floor(x/(2^(k-1))))*2^(k-1)) # Stephan's original solution
@@ -62,7 +62,7 @@ function flip_bit(x::T, k::Int) where T <: Unsigned
 end
 
 """
-Function to determine if, how many, and which mutants a population of genotypes/genomes will generate
+Function to determine if, how many, and which mutants a population of genotypes/genomes will generate.
 """
 # we now pass in a population tuple (genotype, genome) for each in the current simulation
 function generate_mutants!(population::Tuple, genotype_dictionary::Dict, current_populations::Dict, μ::AbstractFloat, M::AbstractFloat, loci::Int, additive_effects, rng_mutation)
@@ -107,7 +107,7 @@ function hamming_dist(genotype_1::BigInt, genotype_2::BigInt, loci::Int)
 end
 
 """
-Function to calculate the average hamming distance between <b>genotypes per genome</b> in a sample vector
+Function to calculate the average hamming distance between <b>genotypes per genome</b> in a sample vector.
 """
 function average_hamming_dist(genotypes::Vector{UInt128}, loci::Int)
     n = length(genotypes) # or maybe we have to adjust this to unique genotypes? i'm not sure the situation will arise... 
@@ -130,7 +130,7 @@ function average_hamming_dist(genotypes::Vector{UInt128}, loci::Int)
 end
 
 """
-Function to calculate the weighted average fitness value between all genotypes/genomes in a generation
+Function to calculate the weighted average fitness value between all genotypes/genomes in a generation.
 """
 function average_fitness(genotypes::Vector{UInt128}, genomes::Vector{UInt128}, population_size, additive_effects, σ_epi, model = "rmf")
     n = length(genotypes)
@@ -146,7 +146,7 @@ function average_fitness(genotypes::Vector{UInt128}, genomes::Vector{UInt128}, p
 end
 
 """
-Function to calculate the weighted average genome size between all genomes in a generation
+Function to calculate the weighted average genome size between all genomes in a generation.
 """
 function average_genome_size(genomes::Vector{UInt128}, population_size)
     total_size = 0
@@ -194,7 +194,7 @@ function expected_searchtime(l::Int64, max_size::Int64)
 end
 
 """
-function to simulate a wright-fisher population with non-overlapping generations on a rough mount fuji landscape
+function to simulate a wright-fisher population with non-overlapping generations on a rough mount fuji landscape. Returns a dataframe with columns -> [:Step, :Genotype, :Genome, :Population]. Note that when printing the outputs from dataframes, UInt128s are encoded as such, but displayed in base 10. 
 """
 function simulate(loci, init_active_loci, max_init_genotype_bits, total_population, epistasis, μ, M, simulation_length, rng_init_genome, rng_init_genotype, rng_default, rng_mutation, additive_effects; model = "rmf")
     # Initialize some parameters and objects
@@ -280,7 +280,14 @@ function simulate(loci, init_active_loci, max_init_genotype_bits, total_populati
 end
 
 """
-Function to process the dataframe output of simulations to obtain relevant time-series metrics (mutation type balance, average fitness, etc.)
+Function to process the dataframe output of simulations to obtain relevant time-series metrics:
+1. The number of genome/genotype combinations in each generation -> [:Step, :Count]
+2. The number of unique (over the whole simulation) genome/genotype combinations in each generation and the cumulative number of unique combinations seen -> [:Step, :Count, :Cumulative]
+3. The number of genomes in each generation -> [:Step, :GenomeRichness]
+4. The average hamming distance between all genotypes per genome per generation -> [:Step, :AvgGenotypeRichness]
+5. The weighted average fitness of all individuals in a generation [:Step, :AverageFitness]
+6. The weighted average genome size of all individuals in a generation [:Step, :AverageGenomeSize]
+7. The generations in which selective sweeps occur, defined as when a new genotype OR genome/genotype combination first occupies more than 50% of the population -> [:Step, :Genotype, :Genome, :Pop, :Genotype, :GenotypeChange, :GenomeChange]
 """
 function process_data(data::DataFrame, μ, M, additive_effects, σ_epi)
     
@@ -325,10 +332,10 @@ end
 Function to take output dataframe from simulation and generate time-series plots of relevant metrics: 
 1. unique system states encountered
 2. average fitness
-3. average genome size
-4. genotype:genome richness (see below)
-5. genotype richness (# of genotypes per genome)
-6. genome richness (# of genomes)
+3. average genome size 
+4. genotype richness (# of genotypes per genome)
+5. genome richness (# of genomes)
+6. genotype:genome richness
 """
 function generate_plots(data::DataFrame, μ, M, additive_effects, σ_epi; save::Bool = false)
     
@@ -358,8 +365,8 @@ function generate_plots(data::DataFrame, μ, M, additive_effects, σ_epi; save::
     plot!(size = (1000,1000))
 
     if save == true
-        runtime = Dates.format(now(), "yyyymmdd_HH:MM")
-        png("output/L$(loci)l$(init_active_loci)i$(max_init_genotype_bits)M$(M)μ$(μ)_$(runtime).png")
+        runtime = Dates.format(now(), "yyyymmdd_HHMM")
+        png("output/L$(loci)l$(init_active_loci)i$(max_init_genotype_bits)_$(runtime).png")
     end
     
     return output_plot
