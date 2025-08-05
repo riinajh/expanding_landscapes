@@ -34,18 +34,21 @@ ggplot(data, aes(x = loci_diff, y = as.factor(timepoint), fill = as.factor(Loci)
        title = "Time to Equilibrium on Uniform Additive Landscapes (n = 33/Condition)",
        fill = "Loci",
        color = "Loci") +
-  theme(plot.title = element_text(hjust = 0.5))
-
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme_minimal()
+ggsave("output/uniform_additive_t_eq.png", bg = "transparent")
 
 # Now determine if the variable additive landscapes are randomly walking at a 50-25-25% ratio. 
 
-df02 <- read.csv("output/additive_replicate124_data_20250724.csv") %>% 
-  pivot_longer(cols = c(X1, X10, X20), names_to = "loci")
+df02 <- read.csv("output/additive_replicate124_data_20250724.csv") %>%
+  rename(`1` = X1, `10` = X10, `20` = X20) %>% 
+  pivot_longer(cols = c(`1`, `10`, `20`), names_to = "loci")
 
 ggplot(df02, aes(y = value, group = loci, fill = loci)) +
-  geom_histogram(binwidth = 1, aes(alpha = 0.3), position = "dodge") +
+  geom_histogram(binwidth = 1, position = "dodge") +
   scale_fill_viridis_d(option = "D", begin = 0.2, end = 0.8) +
   labs(y = "Genome Size", x = "Count", title = "Histogram of genome sizes (3 reps)") + 
   geom_hline(yintercept = mean(df02$value), color= "red") +
-  theme(plot.title = element_text(hjust = 0.5))
-
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme_minimal()
+ggsave("output/uniform_additive_rep124.png", bg = "transparent")
