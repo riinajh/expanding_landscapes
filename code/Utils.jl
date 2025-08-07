@@ -396,7 +396,7 @@ function initialize_prngs(; default_seed = 100, additive_seed = 100, genotype_se
     #Random.seed!(rng_init_genome, genome_seed)
     
     # as well as which mutants are created each generation (modeling different "decisions")
-    mutation_seed = 100 # changing this should change which decisions are made from some starting point
+    # changing this should change which decisions are made from some starting point
     rng_mutation = Xoshiro(mutation_seed)
     #Random.seed!(rng_mutations, mutation_seed)
     return (rng_default, rng_additive, rng_init_genotype, rng_init_genome, rng_mutation)
