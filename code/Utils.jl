@@ -32,8 +32,8 @@ end
 """
 Generates a vector of locus-wise effects, with bounds depending on the type of calculation used for the additive fitness effects.
 """
-function generate_additive_effects(rng_additive, loci::Int)
-    return rand(rng_additive, Normal(0, 1), loci)
+function generate_additive_effects(rng_additive, σ_add, loci::Int)
+    return rand(rng_additive, Normal(0, σ_add), loci)
 end
 
 """
@@ -366,7 +366,7 @@ function generate_plots(data::DataFrame, μ, M, additive_effects, σ_epi; save::
 
     if save == true
         runtime = Dates.format(now(), "yyyymmdd_HHMM")
-        png("output/L$(loci)l$(init_active_loci)i$(max_init_genotype_bits)_$(runtime).png")
+        png("outputs/figures/L$(loci)l$(init_active_loci)i$(max_init_genotype_bits)_$(runtime).png")
     end
     
     return output_plot
@@ -403,49 +403,5 @@ function initialize_prngs(; default_seed = 100, additive_seed = 100, genotype_se
 end
 
 #= an example initialization:
-
-# Initializing different prngs so that different replicates can be run
-rng_default = Xoshiro(100)
-Random.seed!(rng_default, 100)
-
-# Seeding a rng for additive effects
-additive_seed = 100 # changing this changes the topography of the landscape, depending on ruggedness
-rng_additive = Xoshiro(additive_seed)
-#Random.seed!(rng_additive, additive_seed)
-
-# initializing a rng for genotype generation
-genotype_seed = 100 # changing this changes the initial genotype generated
-rng_init_genotype = Xoshiro(genotype_seed)
-#Random.seed!(rng_init_genotype, genotype_seed)
-
-# and a separate one for the initial genome
-genome_seed = 100 # changing this changes the initial genome generated
-rng_init_genome = Xoshiro(genome_seed)
-#Random.seed!(rng_init_genome, genome_seed)
-
-# as well as which mutants are created each generation (modeling different "decisions")
-mutation_seed = 100 # changing this should change which decisions are made from some starting point
-rng_mutation = Xoshiro(mutation_seed)
-#Random.seed!(rng_mutations, mutation_seed)
-
-# Initializing our relevant arguments
-loci = 20 # since the bitwidth of the genome is 128, we can't actually model any arbitrary maximum genome bitsize. what we can do instead is enforce a maximum genome size (effectively, the bitwidth within a UInt128). 
-init_active_loci = 3 # how many loci, out of the total number of loci in the landscape defined above, are unlocked at the start?
-max_init_genotype_bits = 3 # makes the initial genotype reproducible between resticted and unlocked landscapes of the same size. max size is the number of init active loci
-# what the above lets us model is how the restrictedness of the landscape at initialization (init_active_loci) determines what peaks are reached. max_init_genotype_bits allows
-# us to control for the initial genotype when we change the number of unlocked loci at the start, otherwise we would just generate a different starting genotype (potentially one that wasn't available on the restricted landscape)
-additive_effects = generate_additive_effects(128)#zeros(128) # we will always need to generate the full range of additive effects (128 bit)
-total_population = 5000
-σ_epi::Float64 = 0 # standard deviation of the epistatic effects
-μ = (total_population^-1)/10 # Mutation rate of the genotypes with some genome. Claudia says than Nμ = 1 is a weird parameter regime, so we adjust it a bit lower
-M = μ#*10^-1 # rate of genome evolution. expansion/streamlining events happen an order of magnitude less, on average, than mutations
-simulation_length = 20000
-
-=#
-
-#= and the simulation can be run and plotted as so:
-
-df_genotypes = simulate(loci, init_active_loci, max_init_genotype_bits, total_population, σ_epi, μ, M, simulation_length)
-generate_plots(df_genotypes)
 
 =#
