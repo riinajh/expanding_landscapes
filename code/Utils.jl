@@ -196,7 +196,7 @@ end
 """
 function to simulate a wright-fisher population with non-overlapping generations on a rough mount fuji landscape. Returns a dataframe with columns -> [:Step, :Genotype, :Genome, :Population]. Note that when printing the outputs from dataframes, UInt128s are encoded as such, but displayed in base 10. 
 """
-function simulate(loci, init_active_loci, max_init_genotype_bits, total_population, epistasis, μ, M, simulation_length, rng_init_genome, rng_init_genotype, rng_default, rng_mutation, additive_effects; model = "rmf")
+function simulate(loci, init_active_loci, max_init_genotype_bits, total_population, epistasis, μ, M, simulation_length, rng_init_genome, rng_init_genotype, rng_default, rng_mutation, additive_effects; model = "rmf", init = nothing)
     # Initialize some parameters and objects
     num_genotypes = 1 # leaving this in for posterity
     genotype_dictionary = Dict{Tuple, Genotype}() # keys are stored as a tuple of the genotype(integer) and its genome, and the genotype object as values
@@ -205,6 +205,9 @@ function simulate(loci, init_active_loci, max_init_genotype_bits, total_populati
     bits_to_flip = sample(rng_init_genome, 1:loci, init_active_loci, replace = false) # generate a vector of unique loci to unlock at start, limited to within l total loci
     for locus in bits_to_flip
         init_genome = flip_bit(init_genome, locus) # flip them, while retaining UInt128 - this is important as to not lose any information about the latent genome space!
+    end
+    if !isnothing(init) # If you've passed in some specific genotype/genome pair list, utilize this instead
+        init_genome = init[2]
     end
     #println("Initial Genome: ", init_genome, " \n\t with active bits:", bits_to_flip)
 
@@ -216,6 +219,9 @@ function simulate(loci, init_active_loci, max_init_genotype_bits, total_populati
         init_genotype::UInt128 = 0 # assume it exists as a 128bit, since it's the max size and it gets cast to this in the cbrng anyway
         for locus in sample(rng_init_genotype, bits_to_flip[1:max_init_genotype_bits], rand(rng_init_genotype, 0:max_init_genotype_bits), replace = false)  # generate a *random number* of bits that are active in the initial genome to be flipped
             init_genotype = flip_bit(init_genotype, locus)
+        end
+        if !isnothing(init) # If you've passed in some specific genotype/genome pair list, utilize this instead
+            init_genotype = init[1]
         end
         (init_genotype, init_genome) ∉ keys(genotype_dictionary) ? #check for a unique genotype-genome pair and make the entry in dict if not
             genotype_dictionary[(init_genotype, init_genome)] = Genotype(init_genotype, init_genome, total_population/num_genotypes, additive_effects, σ_epi) : # fitness is the fourth value passed to genotype() and is initally represented as an arbitrary Int before fitness assignment in the constructor
@@ -320,7 +326,17 @@ function process_data(data::DataFrame, μ, M, additive_effects, σ_epi)
     genome_xor = [major_genotypes.Genome[1]; major_genotypes.Genome[1:end-1]]
     major_genotypes[!, :GenotypeChange] = floor.(heaviside.(major_genotypes.Genotype .⊻ genotype_xor))
     major_genotypes[!, :GenomeChange] = floor.(heaviside.(major_genotypes.Genome .⊻ genome_xor))
-    sweeps = filter([:GenotypeChange, :GenomeChange] => (genotype, genome) -> genotype == 1.0 || genome == 1.0, major_genotypes)
+    sweeps = major_genotypes[1,:] 
+    sweeps.GenotypeChange = 0.0
+    sweeps.GenomeChange = 0.0
+    sweeps = vcat(DataFrame(sweeps), filter([:GenotypeChange, :GenomeChange] => (genotype, genome) -> genotype == 1.0 || genome == 1.0, major_genotypes))
+    sweeps[!, :Fitness] = get_fitness.(
+        sweeps.Genotype,
+        sweeps.Genome,
+        Ref(additive_effects),
+        Ref(σ_epi),
+        Ref("rmf")
+    )
 
     return (df_counts, df_full_steps,
             df_genome_counts, df_per_genome_genotypes,

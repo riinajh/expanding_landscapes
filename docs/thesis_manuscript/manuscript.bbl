@@ -1,0 +1,249 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{neidhartAdaptationTunablyRugged2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=22a03a2917f39e61fc9557a8b73d9fe3}{%
+           family={Neidhart},
+           familyi={N\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=708a363ff1ac22fccc1366510c60c645}{%
+           family={Szendro},
+           familyi={S\bibinitperiod},
+           given={Ivan\bibnamedelima G},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=4d4104ab4a5c562d44ef44ae19819281}{%
+           family={Krug},
+           familyi={K\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
+      \strng{fullhash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
+      \strng{bibnamehash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
+      \strng{authorbibnamehash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
+      \strng{authornamehash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
+      \strng{authorfullhash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Much of the current theory of adaptation is based on Gillespie's mutational landscape model (MLM), which assumes that the fitness values of genotypes linked by single mutational steps are independent random variables. On the other hand, a growing body of empirical evidence shows that real fitness landscapes, while possessing a considerable amount of ruggedness, are smoother than predicted by the MLM. In the present article we propose and analyze a simple fitness landscape model with tunable ruggedness based on the rough Mount Fuji (RMF) model originally introduced by Aita et al. in the context of protein evolution. We provide a comprehensive collection of results pertaining to the topographical structure of RMF landscapes, including explicit formulas for the expected number of local fitness maxima, the location of the global peak, and the fitness correlation function. The statistics of single and multiple adaptive steps on the RMF landscape are explored mainly through simulations, and the results are compared to the known behavior in the MLM model. Finally, we show that the RMF model can explain the large number of second-step mutations observed on a highly fit first-step background in a recent evolution experiment with a microvirid bacteriophage.}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shorttitle}{Adaptation in {{Tunably Rugged Fitness Landscapes}}}
+      \field{title}{Adaptation in {{Tunably Rugged Fitness Landscapes}}: {{The Rough Mount Fuji Model}}}
+      \field{urlday}{16}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{198}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{699\bibrangedash 721}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1534/genetics.114.167668
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\hughr\\Zotero\\storage\\7WP9DT9S\\Neidhart et al. - 2014 - Adaptation in Tunably Rugged Fitness Landscapes T.pdf;C\:\\Users\\hughr\\Zotero\\storage\\PVVB4YYG\\5935970.html
+      \endverb
+    \endentry
+    \entry{liRapidAdaptationRecombining2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=afcb7582f3cdb950d62d38fe1bb25cbb}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=689c601fbac2fb1f5830c2603e9fa921}{%
+           family={Amado},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d48c40560fc3b56714ac722b05efb531}{%
+           family={Bank},
+           familyi={B\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{efa25b492719fba722729a3af9d94497}
+      \strng{fullhash}{efa25b492719fba722729a3af9d94497}
+      \strng{bibnamehash}{efa25b492719fba722729a3af9d94497}
+      \strng{authorbibnamehash}{efa25b492719fba722729a3af9d94497}
+      \strng{authornamehash}{efa25b492719fba722729a3af9d94497}
+      \strng{authorfullhash}{efa25b492719fba722729a3af9d94497}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How does standing genetic variation affect polygenic adaptation in recombining populations? Despite a large body of work in quantitative genetics, epistatic and weak additive fitness effects among simultaneously segregating genetic variants are difficult to capture experimentally or to predict theoretically. In this study, we simulated adaptation on fitness landscapes with tunable ruggedness driven by standing genetic variation in recombining populations. We confirmed that recombination hinders the movement of a population through a rugged fitness landscape. When surveying the effect of epistasis on the fixation of alleles, we found that the combined effects of high ruggedness and high recombination probabilities lead to preferential fixation of alleles that had a high initial frequency. This indicates that positive epistatic alleles escape from being broken down by recombination when they start at high frequency. We further extract direct selection coefficients and pairwise epistasis along the adaptive path. When taking the final fixed genotype as the reference genetic background, we observe that, along the adaptive path, beneficial direct selection appears stronger and pairwise epistasis weaker than in the underlying fitness landscape. Quantitatively, the ratio of epistasis and direct selection is smaller along the adaptive path ({$\approx$}1) than expected. Thus, adaptation on a rugged fitness landscape may lead to spurious signals of direct selection generated through epistasis. Our study highlights how the interplay of epistasis and recombination constrains the adaptation of a diverse population to a new environment.}
+      \field{issn}{1365-294X}
+      \field{journaltitle}{Molecular Ecology}
+      \field{langid}{english}
+      \field{number}{10}
+      \field{title}{Rapid Adaptation of Recombining Populations on Tunable Fitness Landscapes}
+      \field{urlday}{22}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e16900}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/mec.16900
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\hughr\\Zotero\\storage\\SCJAMPXK\\Li et al. - 2024 - Rapid adaptation of recombining populations on tun.pdf;C\:\\Users\\hughr\\Zotero\\storage\\Z5AB44HJ\\mec.html
+      \endverb
+      \keyw{adaptation,epistasis,fitness landscapes,recombination,standing genetic variation}
+    \endentry
+    \entry{amadoSTUNForwardtimeSimulation2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=689c601fbac2fb1f5830c2603e9fa921}{%
+           family={Amado},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=afcb7582f3cdb950d62d38fe1bb25cbb}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d48c40560fc3b56714ac722b05efb531}{%
+           family={Bank},
+           familyi={B\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d201e7f63365e66026d45598bcbdbfe0}
+      \strng{fullhash}{d201e7f63365e66026d45598bcbdbfe0}
+      \strng{bibnamehash}{d201e7f63365e66026d45598bcbdbfe0}
+      \strng{authorbibnamehash}{d201e7f63365e66026d45598bcbdbfe0}
+      \strng{authornamehash}{d201e7f63365e66026d45598bcbdbfe0}
+      \strng{authorfullhash}{d201e7f63365e66026d45598bcbdbfe0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Understanding the population genetics of complex polygenic traits during adaptation is challenging.Here, we implement a forward-in-time population-genetic simulator (STUN) based on Wright-Fisher dynamics. STUN is a flexible and user-friendly software package for simulating the polygenic adaptation of recombining haploid populations using either new mutations or standing genetic variation. STUN assumes that populations adapt to sudden environmental changes by undergoing selection on a new fitness landscape. With pre-implemented fitness landscape models like Rough Mount Fuji, NK, Block, additive, and House-of-Cards, users can explore the effect of different levels of epistasis (ruggedness of the fitness landscape). Custom fitness landscapes and recombination maps can also be defined. STUN empowers both experimentalists and advanced programmers to study the evolution of complex polygenic traits and to dissect the adaptation process.STUN is implemented in Rust. Its source code is available at https://github.com/banklab/STUN and archived on Zenodo under doi: 10.5281/zenodo.10246377. The repository includes a link to the software's manual and binary files for Linux, macOS and Windows.}
+      \field{issn}{2635-0041}
+      \field{journaltitle}{Bioinformatics Advances}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{{{STUN}}}
+      \field{title}{{{STUN}}: Forward-Time Simulation on {{TUnable fitNess}} Landscapes in Recombining Populations}
+      \field{urlday}{16}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{vbad164}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/bioadv/vbad164
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\hughr\\Zotero\\storage\\UYAHHXPY\\Amado et al. - 2023 - STUN forward-time simulation on TUnable fitNess l.pdf;C\:\\Users\\hughr\\Zotero\\storage\\NPFH6YVT\\7424707.html
+      \endverb
+    \endentry
+    \entry{JuliaRandomRandom123jl2024}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Julia implementation of Random123.}
+      \field{howpublished}{JuliaRandom}
+      \field{month}{4}
+      \field{title}{{{JuliaRandom}}/{{Random123}}.Jl}
+      \field{urlday}{21}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{salmonParallelRandomNumbers2011}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=825639652e4fffa0fb8733eb7b265995}{%
+           family={Salmon},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=796d40dfca78484bdd33520a588c61f1}{%
+           family={Moraes},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=60118e9c2e67e2c816c2c03fe820c943}{%
+           family={Dror},
+           familyi={D\bibinitperiod},
+           given={Ron\bibnamedelima O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=71112b752871ad3bd300f9bfd00edbd7}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{41340751e16a4ff0dcda85f6a89b8bb7}
+      \strng{fullhash}{7760d76683dccdf5129bf929d5e9dedd}
+      \strng{bibnamehash}{41340751e16a4ff0dcda85f6a89b8bb7}
+      \strng{authorbibnamehash}{41340751e16a4ff0dcda85f6a89b8bb7}
+      \strng{authornamehash}{41340751e16a4ff0dcda85f6a89b8bb7}
+      \strng{authorfullhash}{7760d76683dccdf5129bf929d5e9dedd}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Most pseudorandom number generators (PRNGs) scale poorly to massively parallel high-performance computation because they are designed as sequentially dependent state transformations. We demonstrate that independent, keyed transformations of counters produce a large alternative class of PRNGs with excellent statistical properties (long period, no discernable structure or correlation). These counter-based PRNGs are ideally suited to modern multi-core CPUs, GPUs, clusters, and special-purpose hardware because they vectorize and parallelize well, and require little or no memory for state. We introduce several counter-based PRNGs: some based on cryptographic standards (AES, Threefish) and some completely new (Philox). All our PRNGs pass rigorous statistical tests (including TestU01's BigCrush) and produce at least 264 unique parallel streams of random numbers, each with period 2128 or more. In addition to essentially unlimited parallel scalability, our PRNGs offer excellent single-chip performance: Philox is faster than the CURAND library on a single NVIDIA GPU.}
+      \field{booktitle}{Proceedings of 2011 {{International Conference}} for {{High Performance Computing}}, {{Networking}}, {{Storage}} and {{Analysis}}}
+      \field{isbn}{978-1-4503-0771-0}
+      \field{month}{11}
+      \field{series}{{{SC}} '11}
+      \field{shorttitle}{Parallel Random Numbers}
+      \field{title}{Parallel Random Numbers: As Easy as 1, 2, 3}
+      \field{urlday}{21}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/2063384.2063405
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\63FE8UWL\Salmon et al. - 2011 - Parallel random numbers as easy as 1, 2, 3.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
