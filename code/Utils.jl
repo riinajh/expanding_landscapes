@@ -293,7 +293,7 @@ Function to process the dataframe output of simulations to obtain relevant time-
 4. The average hamming distance between all genotypes per genome per generation -> [:Step, :AvgGenotypeRichness]
 5. The weighted average fitness of all individuals in a generation [:Step, :AverageFitness]
 6. The weighted average genome size of all individuals in a generation [:Step, :AverageGenomeSize]
-7. The generations in which selective sweeps occur, defined as when a new genotype OR genome/genotype combination first occupies more than 50% of the population -> [:Step, :Genotype, :Genome, :Pop, :Genotype, :GenotypeChange, :GenomeChange]
+7. The generations in which selective sweeps occur, defined as when a new genotype OR genome/genotype combination first occupies more than 50% of the population -> [:Step, :Genotype, :Genome, :Pop, :Genotype, :GenotypeChange, :GenomeChange, :Fitness, :GenomeSize]
 """
 function process_data(data::DataFrame, μ, M, additive_effects, σ_epi)
     
@@ -337,6 +337,7 @@ function process_data(data::DataFrame, μ, M, additive_effects, σ_epi)
         Ref(σ_epi),
         Ref("rmf")
     )
+    sweeps[!, :CurrentGenomeSize] = sum.(digits.(sweeps.Genome, base = 2))
 
     return (df_counts, df_full_steps,
             df_genome_counts, df_per_genome_genotypes,
