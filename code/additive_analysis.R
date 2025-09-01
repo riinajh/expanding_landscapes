@@ -40,15 +40,22 @@ ggsave("output/uniform_additive_t_eq.png", bg = "transparent")
 
 # Now determine if the variable additive landscapes are randomly walking at a 50-25-25% ratio. 
 
-df02 <- read.csv("output/additive_replicate124_data_20250724.csv") %>%
+df02 <- read.csv("outputs/data/04_expanding_additive_replicate6_20250901.csv") %>%
   rename(`1` = X1, `10` = X10, `20` = X20) %>% 
   pivot_longer(cols = c(`1`, `10`, `20`), names_to = "loci")
 
-ggplot(df02, aes(y = value, group = loci, fill = loci)) +
-  geom_histogram(binwidth = 1, position = "dodge") +
+ggplot(df02, aes(y = value, group = loci, fill = loci, color = loci)) +
+  geom_density(bw = 0.5, alpha = 0.5) +
   scale_fill_viridis_d(option = "D", begin = 0.2, end = 0.8) +
-  labs(y = "Genome Size", x = "Count", title = "Histogram of genome sizes (3 reps)") + 
-  geom_hline(yintercept = mean(df02$value), color= "red") +
+  scale_color_viridis_d(option = "D", begin = 0.2, end = 0.8) +
+  ylim(c(0,20)) +
+  labs(y = "Genome Size", 
+       x = "Density", 
+#       title = "Histogram of genome sizes (1e5 Generations)",
+       fill = "Initial genome size",
+       color = "Initial genome size"
+       ) + 
+  geom_hline(yintercept = mean(df02$value), color= "black", lty = 2) +
   theme(plot.title = element_text(hjust = 0.5)) +
   theme_minimal()
 ggsave("output/uniform_additive_rep124.png", bg = "transparent")

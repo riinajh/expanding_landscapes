@@ -383,7 +383,7 @@ function generate_plots(data::DataFrame, μ, M, additive_effects, σ_epi; save::
 
     if save == true
         runtime = Dates.format(now(), "yyyymmdd_HHMM")
-        png("outputs/figures/L$(loci)l$(init_active_loci)i$(max_init_genotype_bits)_$(runtime).png")
+        savefig("outputs/figures/L$(loci)l$(init_active_loci)i$(max_init_genotype_bits)_$(runtime).pdf")
     end
     
     return output_plot
