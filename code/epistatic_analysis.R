@@ -7,6 +7,15 @@ setwd("~/mastersarbeit/thesis/code")
 expected_max_fitness <- function(L, add, epi){
   return(exp((2 * L * (((L / 2) * add^2) + epi^2) * log(2))^0.5))
 }
+Z <- expand_grid(Loci = 1:20, sig_a = c(0, 0.1), sig_e = c(0, 0.1)) %>% 
+  mutate(mean_max = expected_max_fitness(Loci, sig_a, sig_e)) %>% 
+  filter(!(sig_a == 0 & sig_e == 0))
+ggplot(Z, aes(x = Loci, y = mean_max)) +
+  facet_grid(rows = vars(sig_a), cols = vars(sig_e)) +
+  geom_point() +
+  labs(y = "Mean Peak Fitness") +
+  theme_minimal()
+ggsave("outputs/figures/mean_peak_scaling.pdf")
 
 ################################################################################
 # Begin with the static landscape
@@ -31,18 +40,18 @@ ggsave("outputs/figures/05-1_static_timeseries.png")
 
 # Also plotting the final fitnesses vs size for comparison
 # Filter only for endpoints as to compare to later simulations
-ggplot(filter(df01, Generation == 50000), aes(x = as.factor(Loci), y = Final_fitness, group = Loci,
+ggplot(filter(df01, Generation == 50000), aes(x = as.factor(Loci), y = log10(Final_fitness), group = Loci,
                                               fill = as.factor(Loci), color = as.factor(Loci))) +
   geom_boxplot() +
-  lims(y = c(0,200)) +
+  lims(y = c(0,2.5)) +
   scale_fill_viridis_d(option = "B", begin = 0.25, end = 0.9, alpha = 0.7) +
   scale_color_viridis_d(option = "B", begin = 0.25, end = 0.9) + 
-  labs(x = "Genome Size", y = "Fitness",
-       title = "Final Fitnesses of Static Uncorrelated Landscapes (99 Replicates)",
-       fill = "Genome Size (Fixed)",
-       color = "Genome Size (Fixed)") +
+  labs(x = "Genome Size", y = "Log Fitness",
+       #title = "Final Fitnesses of Static Uncorrelated Landscapes (99 Replicates)",
+       fill = "Genome Size (Static)",
+       color = "Genome Size (Static)") +
   theme_minimal()
-ggsave("outputs/figures/05-2_static_finalfitness.png")
+ggsave("outputs/figures/05-2_static_finalfitness.pdf")
 
 ################################################################################
 # Moving on to expanding landscape (max 20, c(1,5,10,15,20))
@@ -54,16 +63,16 @@ df02<- read.csv(filepath_df02) %>%
 
 # Does initial size correlate with final fitness?
 ggplot(df02) +
-  geom_boxplot(aes(x = Loci, y = Final_fitness, group = Loci, fill = Loci, color = Loci)) +
-  lims(y = c(0,200)) +
+  geom_boxplot(aes(x = Loci, y = log10(Final_fitness), group = Loci, fill = Loci, color = Loci)) +
+  lims(y = c(0,2.5)) +
   scale_fill_viridis_d(option = "B", begin = 0.25, end = 0.9, alpha = 0.7) +
   scale_color_viridis_d(option = "B", begin = 0.25, end = 0.9) + 
-  labs(x = "Initial Genome Size", y = "Fitness",
-       title = "Initial Genome Size vs. Final Fitness (200 Replicates)",
+  labs(x = "Initial Genome Size", y = "Log Fitness",
+       #title = "Initial Genome Size vs. Final Fitness (200 Replicates)",
        fill = "Initial Genome Size",
        color = "Initial Genome Size") +
   theme_minimal()
-ggsave("outputs/figures/06-1_expanding_initialsize_fitness.png")
+ggsave("outputs/figures/06-1_expanding_initialsize_fitness.pdf")
 model_size1 <- lm(Final_fitness ~ Loci, df02)
 summary(model_size1)
 anova(model_size1)
@@ -95,11 +104,11 @@ ggplot(df02, aes(x = Final_genome_size, y = Loci, fill = Loci, color = Loci)) +
   scale_fill_viridis_d(option = "A", begin = 0.25, end = 0.95, alpha = 0.7) +
   scale_color_viridis_d(option = "A", begin = 0.25, end = 0.95) +
   labs(y = "Initial Genome Size", x = "Final Genome Size",
-       title = "Initial vs. Final Genome Size (200 Replicates)",
+       #title = "Initial vs. Final Genome Size (200 Replicates)",
        color = "Initial Genome Size",
        fill = "Initial Genome Size") + 
   theme_minimal()
-ggsave("outputs/figures/06-3_expanding_initialfinalsize.png")
+ggsave("outputs/figures/06-3_expanding_initialfinalsize.pdf")
 
 ################################################################################
 # Now trying with a slightly different set of sizes (max 100, c(1,25,50,75,100))
@@ -111,16 +120,16 @@ df03 <- read.csv(filepath_df03) %>%
 
 # Does initial size correlate with final fitness?
 ggplot(df03) +
-  geom_boxplot(aes(x = Loci, y = Final_fitness, group = Loci, fill = Loci, color = Loci)) +
-  lims(y = c(0,200)) +
+  geom_boxplot(aes(x = Loci, y = log10(Final_fitness), group = Loci, fill = Loci, color = Loci)) +
+  lims(y = c(0,2.5)) +
   scale_fill_viridis_d(option = "B", begin = 0.25, end = 0.9, alpha = 0.7) +
   scale_color_viridis_d(option = "B", begin = 0.25, end = 0.9) + 
-  labs(x = "Initial Genome Size", y = "Fitness",
-       title = "Initial Genome Size vs. Final Fitness (200 Replicates)",
+  labs(x = "Initial Genome Size", y = "Log Fitness",
+       #title = "Initial Genome Size vs. Final Fitness (200 Replicates)",
        fill = "Initial Genome Size",
        color = "Initial Genome Size") +
   theme_minimal()
-ggsave("outputs/figures/06-4_expanding_initialsizefitness_2.png")
+ggsave("outputs/figures/06-4_expanding_initialsizefitness_2.pdf")
 model_size1 <- lm(Final_fitness ~ Loci, df03)
 summary(model_size1)
 anova(model_size1)
@@ -147,16 +156,18 @@ anova(model_size2)
 
 # And what about between initial and final genome size?
 ggplot(df03, aes(x = Final_genome_size, y = Loci, fill = Loci, color = Loci)) +
-  geom_density_ridges(stat = "binline", binwidth = 1, from = 0, to = 20, scale = 3) + 
+  geom_density_ridges(stat = "binline", binwidth = 1, scale = 2) + 
+  scale_x_continuous(breaks = seq(0,100, by = 10)) +
+#  xlim(c(0,100)) +
   stat_summary(fun = mean) +
   scale_fill_viridis_d(option = "A", begin = 0.25, end = 0.95, alpha = 0.7) +
   scale_color_viridis_d(option = "A", begin = 0.25, end = 0.95) +
   labs(y = "Initial Genome Size", x = "Final Genome Size",
-       title = "Initial vs. Final Genome Size (200 Replicates)",
+       #title = "Initial vs. Final Genome Size (200 Replicates)",
        color = "Initial Genome Size",
        fill = "Initial Genome Size") + 
   theme_minimal()
-ggsave("outputs/figures/06-6_initialfinalsize_2.png")
+ggsave("outputs/figures/06-6_initialfinalsize_2.pdf")
 
 # Running the 75 and 100 loci simulations for 200k generations because I have a
 # suspicion that 50k isn't enough, and this may explain why the upper ranges have
@@ -195,9 +206,9 @@ max100_sizes <- c(1, 25, 50, 75, 100)
 max100_means <- sapply(max100_sizes, function(x) mean(filter(df03, Loci == x)$Final_genome_size))
 max100_skews <- (max100_means - max100_sizes)# / 100
 
-plot(x = max20_sizes, y = max20_skews)
+plot(x = max20_sizes, y = max20_skews, xlim = c(0,20), ylim = c(-2, 5))
 summary(lm(max20_skews ~ max20_means))
-plot(x = max100_sizes, y = max100_skews)
+plot(x = max100_sizes, y = max100_skews, xlim = c(0,100), ylim = c(-2, 5))
 summary(lm(max100_skews ~ max100_means))
 # the slope on 100 loci is suspiciously close to 1/5 of that on 20 loci
 

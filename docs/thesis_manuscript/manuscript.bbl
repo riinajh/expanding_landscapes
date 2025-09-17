@@ -19,6 +19,1247 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{duclosInvestigatingEvolutionDevelopment2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=033a4ed4a9d6cdb14b0a25ce88c8897a}{%
+           family={Duclos},
+           familyi={D\bibinitperiod},
+           given={Kevin\bibnamedelima K.},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9053d3bf4ea254ef8f4c89474e7fc062}{%
+           family={Hendrikse},
+           familyi={H\bibinitperiod},
+           given={Jesse\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4df91219ac35f4eb7e7358263a16cd52}{%
+           family={Jamniczky},
+           familyi={J\bibinitperiod},
+           given={Heather\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9fc42dc30396d084cdb001470d13a31}
+      \strng{fullhash}{f9fc42dc30396d084cdb001470d13a31}
+      \strng{bibnamehash}{f9fc42dc30396d084cdb001470d13a31}
+      \strng{authorbibnamehash}{f9fc42dc30396d084cdb001470d13a31}
+      \strng{authornamehash}{f9fc42dc30396d084cdb001470d13a31}
+      \strng{authorfullhash}{f9fc42dc30396d084cdb001470d13a31}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Biological complexity is a key component of evolvability, yet its study has been hampered by a focus on evolutionary trends of complexification and inconsistent definitions. Here, we demonstrate the utility of bringing complexity into the framework of epigenetics to better investigate its utility as a concept in evolutionary biology. We first analyze the existing metrics of complexity and explore the link between complexity and adaptation. Although recently developed metrics allow for a unified framework, they omit developmental mechanisms. We argue that a better approach to the empirical study of complexity and its evolution includes developmental mechanisms. We then consider epigenetic mechanisms and their role in shaping developmental and evolutionary trajectories, as well as the development and organization of complexity. We argue that epigenetics itself could have emerged from complexity because of a need to self-regulate. Finally, we explore hybridization complexes and hybrid organisms as potential models for studying the association between epigenetics and complexity. Our goal is not to explain trends in biological complexity but to help develop and elucidate novel questions in the investigation of biological complexity and its evolution., Biological complexity is the result of the hierarchical organisation of nested levels of cells, tissues and higher order part types interacting together., , This manuscript argues that biological complexity is better understood under the framework of epigenetics and that the epigenetic interactions emerge from the self-regulation of complex systems. Hybrids are offered as models to study these properties.}
+      \field{issn}{1520-541X}
+      \field{journaltitle}{Evolution \& Development}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Investigating the Evolution and Development of Biological Complexity under the Framework of Epigenetics}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{276\bibrangedash 293}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1111/ede.12301
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\7F55PYBL\Duclos et al. - 2019 - Investigating the evolution and development of biological complexity under the framework of epigenet.pdf
+      \endverb
+    \endentry
+    \entry{mcshea2010biology}{book}{}
+      \name{author}{2}{}{%
+        {{hash=648dc76d7451db5fcee20c6060b7ef77}{%
+           family={McShea},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima W},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=04921e5ce082f42e519125ba446ce3f2}{%
+           family={Brandon},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{d915b7ed984ccc63b8a099aa901bd6f8}
+      \strng{fullhash}{d915b7ed984ccc63b8a099aa901bd6f8}
+      \strng{bibnamehash}{d915b7ed984ccc63b8a099aa901bd6f8}
+      \strng{authorbibnamehash}{d915b7ed984ccc63b8a099aa901bd6f8}
+      \strng{authornamehash}{d915b7ed984ccc63b8a099aa901bd6f8}
+      \strng{authorfullhash}{d915b7ed984ccc63b8a099aa901bd6f8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Biology's first law: the tendency for diversity and complexity to increase in evolutionary systems}
+      \field{year}{2010}
+    \endentry
+    \entry{lynchOriginsGenomeComplexity2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9cc21f36b11b9279d8f08ccb61aa96b0}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d66250659262f18574aeacbe234dcfc4}{%
+           family={Conery},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3cc0264f98f8d6beed114fd26c0d8b8}
+      \strng{fullhash}{b3cc0264f98f8d6beed114fd26c0d8b8}
+      \strng{bibnamehash}{b3cc0264f98f8d6beed114fd26c0d8b8}
+      \strng{authorbibnamehash}{b3cc0264f98f8d6beed114fd26c0d8b8}
+      \strng{authornamehash}{b3cc0264f98f8d6beed114fd26c0d8b8}
+      \strng{authorfullhash}{b3cc0264f98f8d6beed114fd26c0d8b8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Complete genomic sequences from diverse phylogenetic lineages reveal notable increases in genome complexity from prokaryotes to multicellular eukaryotes. The changes include gradual increases in gene number, resulting from the retention of duplicate genes, and more abrupt increases in the abundance of spliceosomal introns and mobile genetic elements. We argue that many of these modifications emerged passively in response to the long-term population-size reductions that accompanied increases in organism size. According to this model, much of the restructuring of eukaryotic genomes was initiated by nonadaptive processes, and this in turn provided novel substrates for the secondary evolution of phenotypic complexity by natural selection. The enormous long-term effective population sizes of prokaryotes may impose a substantial barrier to the evolution of complex genomes and morphologies.}
+      \field{issn}{0036-8075, 1095-9203}
+      \field{journaltitle}{Science}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{5649}
+      \field{title}{The {{Origins}} of {{Genome Complexity}}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{302}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{1401\bibrangedash 1404}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1089370
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\UHL888K7\Lynch and Conery - 2003 - The Origins of Genome Complexity.pdf
+      \endverb
+    \endentry
+    \entry{barveLatentCapacityEvolutionary2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a511e940ce432446f2cab18a14fe7b8d}{%
+           family={Barve},
+           familyi={B\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8fd3a8379cbda9c60f92e446330e16fb}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{025f93d628cebc150829651369ea32f6}
+      \strng{fullhash}{025f93d628cebc150829651369ea32f6}
+      \strng{bibnamehash}{025f93d628cebc150829651369ea32f6}
+      \strng{authorbibnamehash}{025f93d628cebc150829651369ea32f6}
+      \strng{authornamehash}{025f93d628cebc150829651369ea32f6}
+      \strng{authorfullhash}{025f93d628cebc150829651369ea32f6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A computational analysis of the ability of a metabolic reaction network to synthesize all biomass from a single source of carbon and energy shows that when such networks are required to be viable on one particular carbon source, they are typically also viable on multiple other carbon sources that were not targets of selection.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{7461}
+      \field{title}{A Latent Capacity for Evolutionary Innovation through Exaptation in Metabolic Systems}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{500}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{203\bibrangedash 206}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature12301
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\WD92RI7I\Barve and Wagner - 2013 - A latent capacity for evolutionary innovation through exaptation in metabolic systems.pdf
+      \endverb
+      \keyw{Biochemical networks,Biochemical reaction networks,Molecular evolution}
+    \endentry
+    \entry{uebbingEvolutionaryInnovationsConserved2024}{article}{}
+      \name{author}{8}{}{%
+        {{hash=85e0ff03a2c0c66c15e453ae4bc9ae9f}{%
+           family={Uebbing},
+           familyi={U\bibinitperiod},
+           given={Severin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=33c97c6ff03735a06d88872422994585}{%
+           family={Kocher},
+           familyi={K\bibinitperiod},
+           given={Acadia\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=778ba28e720f64f6afdaed5d9f392b09}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Marybeth},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1650ab966e9fbbd2e3c278ef770b512f}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=02291f44b6b030377f16ae36214506a0}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Suxia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d69e98267f51a622d0fcbe6c053d3840}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c9e9b5910ee2d7c41787c7db42bc1d78}{%
+           family={Nottoli},
+           familyi={N\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ad134f62ccdc69909eecb4dad60f0cc7}{%
+           family={Noonan},
+           familyi={N\bibinitperiod},
+           given={James\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b13eb565718e28f8b44a601b1030119}
+      \strng{fullhash}{15eabe581888ec4ddb3ce64184f1d657}
+      \strng{bibnamehash}{3b13eb565718e28f8b44a601b1030119}
+      \strng{authorbibnamehash}{3b13eb565718e28f8b44a601b1030119}
+      \strng{authornamehash}{3b13eb565718e28f8b44a601b1030119}
+      \strng{authorfullhash}{15eabe581888ec4ddb3ce64184f1d657}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Transcriptional enhancers orchestrate cell type- and time point-specific gene expression programs. Genetic variation within enhancer sequences is an important contributor to phenotypic variation including evolutionary adaptations and human disease. Certain genes and pathways may be more prone to regulatory evolution than others, with different patterns across diverse organisms, but whether such patterns exist has not been investigated at a sufficient scale. To address this question, we identified signatures of accelerated sequence evolution in conserved enhancer elements throughout the mammalian phylogeny at an unprecedented scale. While different genes and pathways were enriched for regulatory evolution in different parts of the tree, we found a striking overall pattern of pleiotropic genes involved in gene regulatory and developmental processes being enriched for accelerated enhancer evolution. These genes were connected to more enhancers than other genes, which was the basis for having an increased amount of sequence acceleration over all their enhancers combined. We provide evidence that sequence acceleration is associated with turnover of regulatory function. Detailed study of one acceleration event in an enhancer of HES1 revealed that sequence evolution led to a new activity domain in the developing limb that emerged concurrently with the evolution of digit reduction in hoofed mammals. Our results provide evidence that enhancer evolution has been a frequent contributor to regulatory innovation at conserved developmental signaling genes in mammals.}
+      \field{issn}{1537-1719}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Evolutionary {{Innovations}} in {{Conserved Regulatory Elements Associate With Developmental Genes}} in {{Mammals}}}
+      \field{volume}{41}
+      \field{year}{2024}
+      \field{pages}{msae199}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/molbev/msae199
+      \endverb
+      \keyw{Animals,Conserved non-coding sequences,Conserved Sequence,Enhancer Elements Genetic,enhancer evolution,Evolution Molecular,Gene Expression Regulation Developmental,Genes Developmental,Humans,mammal evolution,Mammals,notch signaling,Phylogeny,sequence acceleration}
+    \endentry
+    \entry{dobzhanskyBIOLOGYMOLECULARORGANISMIC1964}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9c4037c9d63e8f6b91c7c6faacf9cccf}{%
+           family={Dobzhansky},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
+      \strng{fullhash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
+      \strng{bibnamehash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
+      \strng{authorbibnamehash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
+      \strng{authornamehash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
+      \strng{authorfullhash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-1569}
+      \field{journaltitle}{American Zoologist}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{{{BIOLOGY}}, {{MOLECULAR AND ORGANISMIC}}}
+      \field{volume}{4}
+      \field{year}{1964}
+      \field{pages}{443\bibrangedash 452}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1093/icb/4.4.443
+      \endverb
+      \keyw{Biology,BIOLOGY,DNA}
+    \endentry
+    \entry{sousaRatesTranspositionEscherichia2013}{article}{}
+      \name{author}{4}{}{%
+        {{hash=393fb5ac7ad54c17726ce18e35d4806b}{%
+           family={Sousa},
+           familyi={S\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=37df1db76ac7053bd5c82fc3deed294e}{%
+           family={Bourgard},
+           familyi={B\bibinitperiod},
+           given={Catarina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=140427d34f7766e335dd0d847869f421}{%
+           family={Wahl},
+           familyi={W\bibinitperiod},
+           given={Lindi\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=961db1e9636472b21af0d76a9acfa8fa}{%
+           family={Gordo},
+           familyi={G\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{fullhash}{6d59a13cebfd1e2f0b9c89024ad1b584}
+      \strng{bibnamehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{authorbibnamehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{authornamehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{authorfullhash}{6d59a13cebfd1e2f0b9c89024ad1b584}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The evolutionary role of transposable elements (TEs) is still highly controversial. Two key parameters, the transposition rate (u and w, for replicative and non-replicative transposition) and the excision rate (e) are fundamental to understanding their evolution and maintenance in populations. We have estimated u, w and e for six families of TEs (including eight members: IS1, IS2, IS3, IS4, IS5, IS30, IS150 and IS186) in Escherichia coli, using a mutation accumulation (MA) experiment. In this experiment, mutations accumulate essentially at the rate at which they appear, during a period of 80 500 (1610 generations {\texttimes} 50 lines) generations, and spontaneous transposition events can be detected. This differs from other experiments in which insertions accumulated under strong selective pressure or over a limited genomic target. We therefore provide new estimates for the spontaneous rates of transposition and excision in E. coli. We observed 25 transposition and three excision events in 50 MA lines, leading to overall rate estimates of u {$\sim$} 1.15 {\texttimes} 10--5, w {$\sim$} 4 {\texttimes} 10-8 and e {$\sim$} 1.08 {\texttimes} 10-6 (per element, per generation). Furthermore, extensive variation between elements was found, consistent with previous knowledge of the mechanisms and regulation of transposition for the different elements.}
+      \field{issn}{1744-9561}
+      \field{journaltitle}{Biology Letters}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Rates of Transposition in {{Escherichia}} Coli}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{20130838}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsbl.2013.0838
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\V8M4FMMZ\Sousa et al. - 2013 - Rates of transposition in Escherichia coli.pdf
+      \endverb
+    \endentry
+    \entry{lipinskiHighSpontaneousRate2011}{article}{}
+      \name{author}{6}{}{%
+        {{hash=592250cfb0b31a95af325ba7d9413e47}{%
+           family={Lipinski},
+           familyi={L\bibinitperiod},
+           given={Kendra\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=222ea7db1f161709114d9a15aea4c06e}{%
+           family={Farslow},
+           familyi={F\bibinitperiod},
+           given={James\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2154702be03607456f9cc69653f251bb}{%
+           family={Fitzpatrick},
+           familyi={F\bibinitperiod},
+           given={Kelly\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9cc21f36b11b9279d8f08ccb61aa96b0}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a1c237919b2e5e7eefdc68ae1a4d4cbc}{%
+           family={Katju},
+           familyi={K\bibinitperiod},
+           given={Vaishali},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0b868da774a26fd62cddaf1b07b7a7cc}{%
+           family={Bergthorsson},
+           familyi={B\bibinitperiod},
+           given={Ulfar},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{83c8e9c9d4f757c8720a01749b92b0d0}
+      \strng{fullhash}{e2c4ad2785a9a92f4a0479a16b234963}
+      \strng{bibnamehash}{83c8e9c9d4f757c8720a01749b92b0d0}
+      \strng{authorbibnamehash}{83c8e9c9d4f757c8720a01749b92b0d0}
+      \strng{authornamehash}{83c8e9c9d4f757c8720a01749b92b0d0}
+      \strng{authorfullhash}{e2c4ad2785a9a92f4a0479a16b234963}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gene and genome duplications are the primary source of new genes and novel functions and have played a pivotal role in the evolution of genomic and organismal complexity [1, 2]. The spontaneous rate of gene duplication is a critical parameter for understanding the evolutionary dynamics of gene duplicates; yet few direct empirical estimates exist and differ widely. The presence of a large population of recently derived gene duplicates in sequenced genomes suggests a high rate of spontaneous origin, also evidenced by population genomic studies reporting rampant copy-number polymorphism at the intraspecific level [3, 4, 5, 6]. An analysis of long-term mutation accumulation lines of Caenorhabditis elegans for gene copy-number changes with array comparative genomic hybridization yields the first direct estimate of the genome-wide rate of gene duplication in a multicellular eukaryote. The gene duplication rate in C.~elegans is quite high, on the order of 10-7 duplications/gene/generation. This rate is two orders of magnitude greater than the spontaneous rate of point mutation per nucleotide site in this species and also greatly exceeds an earlier estimate derived from the frequency distribution of extant gene duplicates in the sequenced C. elegans genome.}
+      \field{issn}{0960-9822}
+      \field{journaltitle}{Current Biology}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{High {{Spontaneous Rate}} of {{Gene Duplication}} in {{{\emph{Caenorhabditis}}}}{\emph{ Elegans}}}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{306\bibrangedash 310}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.cub.2011.01.026
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\W4BTY2GZ\Lipinski et al. - 2011 - High Spontaneous Rate of Gene Duplication in Caenorhabditis elegans.pdf
+      \endverb
+    \endentry
+    \entry{reamsMechanismsGeneDuplication2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=70055f0621e57cc5bfe28085642965a1}{%
+           family={Reams},
+           familyi={R\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=065048136742316f0fd421ab2adb2ef3}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e077ec89058af027307e5f287fae56d7}
+      \strng{fullhash}{e077ec89058af027307e5f287fae56d7}
+      \strng{bibnamehash}{e077ec89058af027307e5f287fae56d7}
+      \strng{authorbibnamehash}{e077ec89058af027307e5f287fae56d7}
+      \strng{authornamehash}{e077ec89058af027307e5f287fae56d7}
+      \strng{authorfullhash}{e077ec89058af027307e5f287fae56d7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Changes in gene copy number are among the most frequent mutational events in all genomes and were among the mutations for which a physical basis was first known. Yet mechanisms of gene duplication remain uncertain because formation rates are difficult to measure and mechanisms may vary with position in a genome. Duplications are compared here to deletions, which seem formally similar but can arise at very different rates by distinct mechanisms. Methods of assessing duplication rates and dependencies are described with several proposed formation mechanisms. Emphasis is placed on duplications formed in extensively studied experimental situations. Duplications studied in microbes are compared with those observed in metazoan cells, specifically those in genomes of cancer cells. Duplications, and especially their derived amplifications, are suggested to form by multistep processes often under positive selection for increased copy number., Gene duplications are one of the oldest and most frequent types of mutation. Genetic approaches are being used to dissect the mechanisms by which they form.}
+      \field{issn}{1943-0264}
+      \field{journaltitle}{Cold Spring Harbor Perspectives in Biology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Mechanisms of {{Gene Duplication}} and {{Amplification}}}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{7}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{a016592}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/cshperspect.a016592
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\34EW2ZXI\Reams and Roth - 2015 - Mechanisms of Gene Duplication and Amplification.pdf
+      \endverb
+    \endentry
+    \entry{sacconeOriginEvolutionGenes2025}{article}{}
+      \name{author}{6}{}{%
+        {{hash=438064d875ebe81f3030875ae8a185b8}{%
+           family={Saccone},
+           familyi={S\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f8069d214fdb48a18cbb53e3142ef745}{%
+           family={Brancato},
+           familyi={B\bibinitperiod},
+           given={Desiree},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f2ff6b3ac246cce0b7f5b77f9c12b2ef}{%
+           family={Bruno},
+           familyi={B\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a94e107702bf2ef375e4038aaf56d342}{%
+           family={Coniglio},
+           familyi={C\bibinitperiod},
+           given={Elvira},
+           giveni={E\bibinitperiod}}}%
+        {{hash=406b5fd5c286aad421d1671b6100a3e7}{%
+           family={Sturiale},
+           familyi={S\bibinitperiod},
+           given={Valentina},
+           giveni={V\bibinitperiod}}}%
+        {{hash=df29c82f41525a562fba4bdb39d14444}{%
+           family={Federico},
+           familyi={F\bibinitperiod},
+           given={Concetta},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{bdf05548cc59e8f06fe8ef9769b2f18b}
+      \strng{fullhash}{6fbbcf6e99b32d6aa785cc53081d6268}
+      \strng{bibnamehash}{bdf05548cc59e8f06fe8ef9769b2f18b}
+      \strng{authorbibnamehash}{bdf05548cc59e8f06fe8ef9769b2f18b}
+      \strng{authornamehash}{bdf05548cc59e8f06fe8ef9769b2f18b}
+      \strng{authorfullhash}{6fbbcf6e99b32d6aa785cc53081d6268}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The origin and evolution of genes are central themes in evolutionary biology and genomics, shedding light on how molecular innovations shape biological complexity and adaptation. This review explores the principal mechanisms underlying gene emergence in eukaryotes, including gene duplication, de novo gene birth, horizontal gene transfer, viral gene domestication, and exon shuffling. We examine the population dynamics that govern the fixation of new genes, their functional integration, and the selective forces acting upon them---from purifying selection to adaptive innovation. Examples such as NOTCH2NL and SRGAP2C, which originated through recent segmental duplications followed by neofunctionalization, illustrate how duplicate-derived de novo genes can play a key role in human brain development. In addition, we highlight the emerging relevance of nuclear architecture in determining the evolutionary fate of new genes, offering a spatial dimension to gene innovation. We also discuss methodological approaches for detecting new genes and inferring selection, and finally, we highlight the emerging role of the human pangenome in revealing hidden gene diversity and its implications for evolutionary and biomedical research. Understanding gene innovation not only enhances our grasp of evolutionary processes but also informs clinical studies on disease susceptibility and human uniqueness.}
+      \field{issn}{2073-4425}
+      \field{journaltitle}{Genes}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{Origin and {{Evolution}} of {{Genes}} in {{Eukaryotes}}}
+      \field{title}{Origin and {{Evolution}} of {{Genes}} in {{Eukaryotes}}: {{Mechanisms}}, {{Dynamics}}, and {{Functional Implications}}}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{702}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/genes16060702
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\KWQT8AST\Saccone et al. - 2025 - Origin and Evolution of Genes in Eukaryotes Mechanisms, Dynamics, and Functional Implications.pdf
+      \endverb
+      \keyw{compositional genome organization,de novo gene birth,evolutionary innovation,functional diversification,gene duplication,neofunctionalization,nuclear architecture,orphan genes,selection and drift,subfunctionalization}
+    \endentry
+    \entry{burssedMechanismsStructuralChromosomal2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=dc650af2aaa5f4161c6d55c3e5d25e18}{%
+           family={Burssed},
+           familyi={B\bibinitperiod},
+           given={Bruna},
+           giveni={B\bibinitperiod}}}%
+        {{hash=faf31339011817269ec1938447e62f31}{%
+           family={Zamariolli},
+           familyi={Z\bibinitperiod},
+           given={Malú},
+           giveni={M\bibinitperiod}}}%
+        {{hash=724628706f22fff1f5e1dc25ec9f9379}{%
+           family={Bellucco},
+           familyi={B\bibinitperiod},
+           given={Fernanda\bibnamedelima Teixeira},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=2ebb5bfaaa223b0b917a4c32b95f11f7}{%
+           family={Melaragno},
+           familyi={M\bibinitperiod},
+           given={Maria\bibnamedelima Isabel},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b97edb9ef8c65d9bbf2c48b5f40e9dc}
+      \strng{fullhash}{6b8b50e88807dc4f6fb951e85c3e1fb9}
+      \strng{bibnamehash}{0b97edb9ef8c65d9bbf2c48b5f40e9dc}
+      \strng{authorbibnamehash}{0b97edb9ef8c65d9bbf2c48b5f40e9dc}
+      \strng{authornamehash}{0b97edb9ef8c65d9bbf2c48b5f40e9dc}
+      \strng{authorfullhash}{6b8b50e88807dc4f6fb951e85c3e1fb9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structural chromosomal rearrangements result from different mechanisms of formation, usually related to certain genomic architectural features that may lead to genetic instability. Most of these rearrangements arise from recombination, repair, or replication mechanisms that occur after a double-strand break or the stalling/breakage of a replication fork. Here, we review the mechanisms of formation of structural rearrangements, highlighting their main features and differences. The most important mechanisms of constitutional chromosomal alterations are discussed, including Non-Allelic Homologous Recombination~(NAHR), Non-Homologous End-Joining~(NHEJ), Fork Stalling and Template Switching (FoSTeS), and Microhomology-Mediated Break-Induced Replication~(MMBIR). Their involvement in chromoanagenesis and in the formation of complex chromosomal rearrangements, inverted duplications associated with terminal deletions, and ring chromosomes is also outlined. We reinforce the importance of high-resolution analysis to determine the DNA sequence at, and near, their breakpoints in order to infer the mechanisms of formation of structural rearrangements and to reveal how cells respond to DNA damage and repair broken ends.}
+      \field{issn}{1755-8166}
+      \field{journaltitle}{Molecular Cytogenetics}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Mechanisms of Structural Chromosomal Rearrangement Formation}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13039-022-00600-6
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\hughr\\Zotero\\storage\\XJL38X4N\\Burssed et al. - 2022 - Mechanisms of structural chromosomal rearrangement formation.pdf;C\:\\Users\\hughr\\Zotero\\storage\\A4NIKGWL\\s13039-022-00600-6.html
+      \endverb
+      \keyw{Chromoanagenesis,Fork stalling and template switching (FoSTeS),Inv dup del,Mechanisms of formation,Microhomology-mediated break-induced replication (MMBIR),Non-allelic homologous recombination (NAHR),Non-homologous end-joining (NHEJ),Ring chromosome,Structural chromosomal rearrangements}
+    \endentry
+    \entry{helsenGeneLossPredictably2020}{article}{}
+      \name{author}{7}{}{%
+        {{hash=a7997984302820a94e84c84be9635cba}{%
+           family={Helsen},
+           familyi={H\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=336f74c674b91f6eb0fe8b7c9431b194}{%
+           family={Voordeckers},
+           familyi={V\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c75bc39bf4dd8398a2f3fbc0ecd690fa}{%
+           family={Vanderwaeren},
+           familyi={V\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7491f49663576571b58fbdf64a6c869f}{%
+           family={Santermans},
+           familyi={S\bibinitperiod},
+           given={Toon},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7416b62621d6953f54447e0368614fb3}{%
+           family={Tsontaki},
+           familyi={T\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ac4468e29b91d3755c5c9f6d44a05a23}{%
+           family={Verstrepen},
+           familyi={V\bibinitperiod},
+           given={Kevin\bibnamedelima J},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2421d7acc7bcb3e9e070e5be683a8251}{%
+           family={Jelier},
+           familyi={J\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d212108408acd3d6a9ed6f4e159b790}
+      \strng{fullhash}{4a2e134924b0ff9e95282e9b03177031}
+      \strng{bibnamehash}{8d212108408acd3d6a9ed6f4e159b790}
+      \strng{authorbibnamehash}{8d212108408acd3d6a9ed6f4e159b790}
+      \strng{authornamehash}{8d212108408acd3d6a9ed6f4e159b790}
+      \strng{authorfullhash}{4a2e134924b0ff9e95282e9b03177031}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Loss of gene function is common throughout evolution, even though it often leads to reduced fitness. In this study, we systematically evaluated how an organism adapts after deleting genes that are important for growth under oxidative stress. By evolving, sequencing, and phenotyping over 200 yeast lineages, we found that gene loss can enhance an organism's capacity to evolve and adapt. Although gene loss often led to an immediate decrease in fitness, many mutants rapidly acquired suppressor mutations that restored fitness. Depending on the strain's genotype, some ultimately even attained higher fitness levels than similarly adapted wild-type cells. Further, cells with deletions in different modules of the genetic network followed distinct and predictable mutational trajectories. Finally, losing highly connected genes increased evolvability by facilitating the emergence of a more diverse array of phenotypes after adaptation. Together, our findings show that loss of specific parts of a genetic network can facilitate adaptation by opening alternative evolutionary paths.}
+      \field{issn}{0737-4038}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{month}{7}
+      \field{number}{10}
+      \field{title}{Gene {{Loss Predictably Drives Evolutionary Adaptation}}}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{37}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{2989\bibrangedash 3002}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1093/molbev/msaa172
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\2CH3ID9U\Helsen et al. - 2020 - Gene Loss Predictably Drives Evolutionary Adaptation.pdf
+      \endverb
+    \endentry
+    \entry{szameczGenomicLandscapeCompensatory2014}{article}{}
+      \name{author}{14}{}{%
+        {{hash=9715175c136bf680ec77f893e838a660}{%
+           family={Szamecz},
+           familyi={S\bibinitperiod},
+           given={Béla},
+           giveni={B\bibinitperiod}}}%
+        {{hash=387e498768758655fb26db4597991c1d}{%
+           family={Boross},
+           familyi={B\bibinitperiod},
+           given={Gábor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6c669b22ed8287ebe9a7891b1a9307be}{%
+           family={Kalapis},
+           familyi={K\bibinitperiod},
+           given={Dorottya},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cd21186b40e21617fa4ee77ba6f2e5f6}{%
+           family={Kovács},
+           familyi={K\bibinitperiod},
+           given={Károly},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c5e7ba1fd12cf8c7266d532fcc2e39eb}{%
+           family={Fekete},
+           familyi={F\bibinitperiod},
+           given={Gergely},
+           giveni={G\bibinitperiod}}}%
+        {{hash=cdc39dd2f02568288b229f707fd102cc}{%
+           family={Farkas},
+           familyi={F\bibinitperiod},
+           given={Zoltán},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=cea25abb4f4ec5c6ebec311aba4843a7}{%
+           family={Lázár},
+           familyi={L\bibinitperiod},
+           given={Viktória},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3fc28df33986e7962f686213d86b7b10}{%
+           family={Hrtyan},
+           familyi={H\bibinitperiod},
+           given={Mónika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=965a381b819d13f440109e4fd84950f3}{%
+           family={Kemmeren},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=315193f10d794dc12508e3006e6e5ffe}{%
+           family={Koerkamp},
+           familyi={K\bibinitperiod},
+           given={Marian\bibnamedelimb J.\bibnamedelimi A.\bibnamedelimi Groot},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=243f5d08d6b1275953c6945284a58982}{%
+           family={Rutkai},
+           familyi={R\bibinitperiod},
+           given={Edit},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9fb93a61a0bfa5a3a53e5e805cadef90}{%
+           family={Holstege},
+           familyi={H\bibinitperiod},
+           given={Frank\bibnamedelimb C.\bibnamedelimi P.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e7d1d226b0ae122f866794b1425830f8}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Balázs},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a4ad6a24a2c4502d7c0a464d935993e7}{%
+           family={Pál},
+           familyi={P\bibinitperiod},
+           given={Csaba},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{5f692f442a77602386015da363656105}
+      \strng{fullhash}{07a9e62caf1b58582e553d358a56624a}
+      \strng{bibnamehash}{5f692f442a77602386015da363656105}
+      \strng{authorbibnamehash}{5f692f442a77602386015da363656105}
+      \strng{authornamehash}{5f692f442a77602386015da363656105}
+      \strng{authorfullhash}{07a9e62caf1b58582e553d358a56624a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Genomic Landscape of Compensatory Evolution Laboratory selection experiment explains how organisms compensate for the loss of genes during evolution, and reveals the deleterious side-effects of this process when adapting to novel environments.}
+      \field{issn}{1545-7885}
+      \field{journaltitle}{PLOS Biology}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{The {{Genomic Landscape}} of {{Compensatory Evolution}}}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{e1001935}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pbio.1001935
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\ZYC6FB82\Szamecz et al. - 2014 - The Genomic Landscape of Compensatory Evolution.pdf
+      \endverb
+      \keyw{Deletion mutation,Evolutionary genetics,Fungal evolution,Gene expression,Genome evolution,Genomics,Point mutation,Yeast}
+    \endentry
+    \entry{vossebergTimingOriginEukaryotic2021}{article}{}
+      \name{author}{7}{}{%
+        {{hash=869eaa1fc90c5a0b1ed9e90b011421a6}{%
+           family={Vosseberg},
+           familyi={V\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=daf852e3ecf6036ef962dd4dccf2f6fa}{%
+           family={{van Hooff}},
+           familyi={v\bibinitperiod},
+           given={Jolien\bibnamedelimb J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e03e18fd8c22b76732a4cc84eaf7e66f}{%
+           family={{Marcet-Houben}},
+           familyi={M\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2f85a2e00f6683f93e7fe7e670bc42f8}{%
+           family={{van Vlimmeren}},
+           familyi={v\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4fe9ce061545186bf71d623c5f727e06}{%
+           family={{van Wijk}},
+           familyi={v\bibinitperiod},
+           given={Leny\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0617dcf21491c6073b02c539e9c8c490}{%
+           family={Gabaldón},
+           familyi={G\bibinitperiod},
+           given={Toni},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cca581fa87c5ba2fca919c38ceaef03d}{%
+           family={Snel},
+           familyi={S\bibinitperiod},
+           given={Berend},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{de90c1bf067a10fb3c930ec86734cb7b}
+      \strng{fullhash}{d19e60e21dc25f1f74fb28726cb6462c}
+      \strng{bibnamehash}{de90c1bf067a10fb3c930ec86734cb7b}
+      \strng{authorbibnamehash}{de90c1bf067a10fb3c930ec86734cb7b}
+      \strng{authornamehash}{de90c1bf067a10fb3c930ec86734cb7b}
+      \strng{authorfullhash}{d19e60e21dc25f1f74fb28726cb6462c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Eukaryogenesis is one of the most enigmatic evolutionary transitions, during which simple prokaryotic cells gave rise to complex eukaryotic cells. While evolutionary intermediates are lacking, gene duplications provide information on the order of events by which eukaryotes originated. Here we use a phylogenomics approach to reconstruct successive steps during eukaryogenesis. We find that gene duplications roughly doubled the proto-eukaryotic gene repertoire, with families inherited from the Asgard archaea-related host being duplicated most. By relatively timing events using phylogenetic distances, we inferred that duplications in cytoskeletal and membrane-trafficking families were among the earliest events, whereas most other families expanded predominantly after mitochondrial endosymbiosis. Altogether, we infer that the host that engulfed the proto-mitochondrion had some eukaryote-like complexity, which drastically increased upon mitochondrial acquisition. This scenario bridges the signs of complexity observed in Asgard archaeal genomes to the proposed role of mitochondria in triggering eukaryogenesis.}
+      \field{issn}{2397-334X}
+      \field{journaltitle}{Nature Ecology \& Evolution}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Timing the Origin of Eukaryotic Cellular Complexity with Ancient Duplications}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{92\bibrangedash 100}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41559-020-01320-z
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\7V7WRECY\Vosseberg et al. - 2021 - Timing the origin of eukaryotic cellular complexity with ancient duplications.pdf
+      \endverb
+      \keyw{Evolutionary theory,Molecular evolution,Phylogenetics}
+    \endentry
+    \entry{tongGenomeDuplicationLongterm2025}{article}{}
+      \name{author}{12}{}{%
+        {{hash=576686c07dda5c77992e03b6e3bf51dd}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=85699288bab042a2965d88f8749a94df}{%
+           family={Datta},
+           familyi={D\bibinitperiod},
+           given={Sayantan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fdc12624be65d03a2fffb919950a4494}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Vivian},
+           giveni={V\bibinitperiod}}}%
+        {{hash=86a1626b22c828bbd7afdc5c5e64ab15}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={Daniella\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fdb6bb128438dd5cd7b2877d4f51d41d}{%
+           family={Gourisetti},
+           familyi={G\bibinitperiod},
+           given={Saranya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=70fd763aed1cab9a6edae3f68cb8be95}{%
+           family={Yopp},
+           familyi={Y\bibinitperiod},
+           given={Harley\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d2ae2b7ef2daa3d4c884656e9a3d0cda}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=17d501d513f057c9ce458ea4770c4855}{%
+           family={Lac},
+           familyi={L\bibinitperiod},
+           given={Dung\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=989ca5035187433e2be4883c390e65a7}{%
+           family={Khalil},
+           familyi={K\bibinitperiod},
+           given={Ahmad\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d76eb57739fb874c2a84aace22a61b34}{%
+           family={Conlin},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=57de1441c549905de49b66dd87ee8dbf}{%
+           family={Bozdag},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi Ozan},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=91b12d63f7a2220fa34780118bcda4a5}{%
+           family={Ratcliff},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima C.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{253f7664bc4f5a3a2373dd930d426b16}
+      \strng{fullhash}{cc27813f0fb3ab76e236f6c75fa35b64}
+      \strng{bibnamehash}{253f7664bc4f5a3a2373dd930d426b16}
+      \strng{authorbibnamehash}{253f7664bc4f5a3a2373dd930d426b16}
+      \strng{authornamehash}{253f7664bc4f5a3a2373dd930d426b16}
+      \strng{authorfullhash}{cc27813f0fb3ab76e236f6c75fa35b64}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Whole-genome duplication (WGD) is widespread across eukaryotes and can promote adaptive evolution1--4. However, given the instability of newly formed polyploid genomes5--7, understanding how WGDs arise in a population, persist, and underpin adaptations remains a challenge. Here, using our ongoing Multicellularity Long Term Evolution Experiment (MuLTEE)8, we show that diploid snowflake yeast (Saccharomyces cerevisiae) under selection for larger multicellular size rapidly evolve to be tetraploid. From their origin within the first 50 days of the experiment, tetraploids persisted for the next 950 days (nearly 5,000 generations, the current leading edge of our experiment) in 10 replicate populations, despite being genomically unstable. Using synthetic reconstruction, biophysical modelling and counter-selection, we found that tetraploidy evolved because it confers immediate fitness benefits under this selection, by producing larger, longer cells that yield larger clusters. The same selective benefit also maintained tetraploidy over long evolutionary timescales, inhibiting the reversion to diploidy that is typically seen in laboratory evolution experiments. Once established, tetraploidy facilitated novel genetic routes for adaptation, having a key role in the evolution of macroscopic multicellular size via the origin of evolutionarily conserved aneuploidy. These results provide unique empirical insights into the evolutionary dynamics and impacts of WGD, showing how it can initially arise due to its immediate adaptive benefits, be maintained by selection and fuel long-term innovations by creating additional dimensions of heritable genetic variation.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{8055}
+      \field{title}{Genome Duplication in a Long-Term Multicellularity Evolution Experiment}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{639}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{691\bibrangedash 699}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41586-025-08689-6
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\XDRU63ZJ\Tong et al. - 2025 - Genome duplication in a long-term multicellularity evolution experiment.pdf
+      \endverb
+      \keyw{Experimental evolution,Polyploidy}
+    \endentry
+    \entry{wrightRolesMutationInbreeding}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=f23690c7a566b5607094b5dc80dd3d22}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Sewall},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f23690c7a566b5607094b5dc80dd3d22}
+      \strng{fullhash}{f23690c7a566b5607094b5dc80dd3d22}
+      \strng{bibnamehash}{f23690c7a566b5607094b5dc80dd3d22}
+      \strng{authorbibnamehash}{f23690c7a566b5607094b5dc80dd3d22}
+      \strng{authornamehash}{f23690c7a566b5607094b5dc80dd3d22}
+      \strng{authorfullhash}{f23690c7a566b5607094b5dc80dd3d22}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {{Roles}} of {{Mutation}}, {{Inbreeding}}, {{Crossbreeding}} and {{Selection}} in {{Evolution}}}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{1932}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\PU8VABYF\The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution.pdf
+      \endverb
+    \endentry
+    \entry{venkataramMutualismenhancingMutationsDominate2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6338f92550ed059fb97ed382d84b3439}{%
+           family={Venkataram},
+           familyi={V\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c95fb53198b150b91073bc28e6b9db10}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={Huan-Yu},
+           giveni={H\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=acfe2471b4cab97b91d8b8703c4163cb}{%
+           family={Hom},
+           familyi={H\bibinitperiod},
+           given={Erik\bibnamedelimb F.\bibnamedelimi Y.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=fc80c743c58e7d5d7b6c7349d6bd6ca0}{%
+           family={Kryazhimskiy},
+           familyi={K\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{ae7b5516e849edad3e29572093eb3b2e}
+      \strng{fullhash}{6db61da8a5a00ca334b0a7d5ecae4425}
+      \strng{bibnamehash}{ae7b5516e849edad3e29572093eb3b2e}
+      \strng{authorbibnamehash}{ae7b5516e849edad3e29572093eb3b2e}
+      \strng{authornamehash}{ae7b5516e849edad3e29572093eb3b2e}
+      \strng{authorfullhash}{6db61da8a5a00ca334b0a7d5ecae4425}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Species interactions drive evolution while evolution shapes these interactions. The resulting eco-evolutionary dynamics and their repeatability depend on how adaptive mutations available to community members affect fitness and ecologically relevant traits. However, the diversity of adaptive mutations is not well characterized, and we do not know how this diversity is affected by the ecological milieu. Here we use barcode lineage tracking to address this question in a community of yeast Saccharomyces cerevisiae and alga Chlamydomonas reinhardtii that have a net commensal relationship that results from a balance between competitive and mutualistic interactions. We find that yeast has access to many adaptive mutations with diverse ecological consequences, in particular those that increase and reduce the yields of both species. The presence of the alga does not change which mutations are adaptive in yeast (that is, there is no fitness trade-off for yeast between growing alone or with alga), but rather shifts selection to favour yeast mutants that increase the yields of both species and make the mutualism stronger. Thus, in the presence of the alga, adaptative mutations contending for fixation in yeast are more likely to enhance the mutualism, even though cooperativity is not directly favoured by natural selection in our system. Our results demonstrate that ecological interactions not only alter the trajectory of evolution but also dictate its repeatability; in particular, weak mutualisms can repeatably evolve to become stronger.}
+      \field{issn}{2397-334X}
+      \field{journaltitle}{Nature Ecology \& Evolution}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Mutualism-Enhancing Mutations Dominate Early Adaptation in a Two-Species Microbial Community}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{7}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{143\bibrangedash 154}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/s41559-022-01923-8
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\3BSWMW5Y\Venkataram et al. - 2023 - Mutualism-enhancing mutations dominate early adaptation in a two-species microbial community.pdf
+      \endverb
+      \keyw{Experimental evolution,Microbial ecology}
+    \endentry
+    \entry{frankeEvolutionaryAccessibilityMutational2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7a022bb5d8b05e081e7ca3aae225dd81}{%
+           family={Franke},
+           familyi={F\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1848173d0797871818c110d748449192}{%
+           family={Klözer},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0b1969cfe671a60c9ea9f78c8e27778e}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={J.\bibnamedelimi Arjan\bibnamedelimb G.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=4d4104ab4a5c562d44ef44ae19819281}{%
+           family={Krug},
+           familyi={K\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{c67a1a82237a703b0b587604816a8fb8}
+      \strng{fullhash}{a62ba4dc43a644b8dc9d6efb87055bbd}
+      \strng{bibnamehash}{c67a1a82237a703b0b587604816a8fb8}
+      \strng{authorbibnamehash}{c67a1a82237a703b0b587604816a8fb8}
+      \strng{authornamehash}{c67a1a82237a703b0b587604816a8fb8}
+      \strng{authorfullhash}{a62ba4dc43a644b8dc9d6efb87055bbd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Functional effects of different mutations are known to combine to the total effect in highly nontrivial ways. For the trait under evolutionary selection (`fitness'), measured values over all possible combinations of a set of mutations yield a fitness landscape that determines which mutational states can be reached from a given initial genotype. Understanding the accessibility properties of fitness landscapes is conceptually important in answering questions about the predictability and repeatability of evolutionary adaptation. Here we theoretically investigate accessibility of the globally optimal state on a wide variety of model landscapes, including landscapes with tunable ruggedness as well as neutral `holey' landscapes. We define a mutational pathway to be accessible if it contains the minimal number of mutations required to reach the target genotype, and if fitness increases in each mutational step. Under this definition accessibility is high, in the sense that at least one accessible pathway exists with a substantial probability that approaches unity as the dimensionality of the fitness landscape (set by the number of mutational loci) becomes large. At the same time the number of alternative accessible pathways grows without bounds. We test the model predictions against an empirical 8-locus fitness landscape obtained for the filamentous fungus Aspergillus niger. By analyzing subgraphs of the full landscape containing different subsets of mutations, we are able to probe the mutational distance scale in the empirical data. The predicted effect of high accessibility is supported by the empirical data and is very robust, which we argue reflects the generic topology of sequence spaces. Together with the restrictive assumptions that lie in our definition of accessibility, this implies that the globally optimal configuration should be accessible to genome wide evolution, but the repeatability of evolutionary trajectories is limited owing to the presence of a large number of alternative mutational pathways.}
+      \field{issn}{1553-7358}
+      \field{journaltitle}{PLOS Computational Biology}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Evolutionary {{Accessibility}} of {{Mutational Pathways}}}
+      \field{urlday}{20}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{e1002134}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1002134
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\E377424R\Franke et al. - 2011 - Evolutionary Accessibility of Mutational Pathways.pdf
+      \endverb
+      \keyw{Fitness epistasis,Fungal evolution,Natural selection,Organismal evolution,Point mutation,Sign epistasis,Simulation and modeling,Statistical mechanics}
+    \endentry
+    \entry{papkouRuggedEasilyNavigable2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a8bf81e8e5a9162be3177c499b57d627}{%
+           family={Papkou},
+           familyi={P\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3c2e307ae904e80976435ec8f479ba51}{%
+           family={{Garcia-Pastor}},
+           familyi={G\bibinitperiod},
+           given={Lucia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1449b58f86f30a991eb7200d68cd043a}{%
+           family={Escudero},
+           familyi={E\bibinitperiod},
+           given={José\bibnamedelima Antonio},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8fd3a8379cbda9c60f92e446330e16fb}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{133dd2f416feb6022e6a4aaff545aa83}
+      \strng{fullhash}{378bc00b17774f00d138447e87e2e423}
+      \strng{bibnamehash}{133dd2f416feb6022e6a4aaff545aa83}
+      \strng{authorbibnamehash}{133dd2f416feb6022e6a4aaff545aa83}
+      \strng{authornamehash}{133dd2f416feb6022e6a4aaff545aa83}
+      \strng{authorfullhash}{378bc00b17774f00d138447e87e2e423}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fitness landscape theory predicts that rugged landscapes with multiple peaks impair Darwinian evolution, but experimental evidence is limited. In this study, we used genome editing to map the fitness of {$>$}260,000 genotypes of the key metabolic enzyme dihydrofolate reductase in the presence of the antibiotic trimethoprim, which targets this enzyme. The resulting landscape is highly rugged and harbors 514 fitness peaks. However, its highest peaks are accessible to evolving populations via abundant fitness-increasing paths. Different peaks share large basins of attraction that render the outcome of adaptive evolution highly contingent on chance events. Our work shows that ruggedness need not be an obstacle to Darwinian evolution but can reduce its predictability. If true in general, the complexity of optimization problems on realistic landscapes may require reappraisal.}
+      \field{journaltitle}{Science}
+      \field{month}{11}
+      \field{number}{6673}
+      \field{title}{A Rugged yet Easily Navigable Fitness Landscape}
+      \field{urlday}{16}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{382}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{eadh3860}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/science.adh3860
+      \endverb
+    \endentry
+    \entry{alpayEffectsSelectionStringency2024}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7688db6a89f2f72326a7289561703441}{%
+           family={Alpay},
+           familyi={A\bibinitperiod},
+           given={Berk\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2de39860fc7617683183582b7a7fc985}{%
+           family={Desai},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{d6b729eff30306d8bbebb4ef1d5cd903}
+      \strng{fullhash}{d6b729eff30306d8bbebb4ef1d5cd903}
+      \strng{bibnamehash}{d6b729eff30306d8bbebb4ef1d5cd903}
+      \strng{authorbibnamehash}{d6b729eff30306d8bbebb4ef1d5cd903}
+      \strng{authornamehash}{d6b729eff30306d8bbebb4ef1d5cd903}
+      \strng{authorfullhash}{d6b729eff30306d8bbebb4ef1d5cd903}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Directed evolution makes mutant lineages compete in climbing complicated sequence-function landscapes. Given this underlying complexity it is unclear how selection stringency, a ubiquitous parameter of directed evolution, impacts the outcome. Here we approach this question in terms of the fitnesses of the candidate variants at each round and the heterogeneity of their distributions of fitness effects. We show that even if the fittest mutant is most likely to yield the fittest mutants in the next round of selection, diversification can improve outcomes by sampling a larger variety of fitness effects. We find that heterogeneity in fitness effects between variants, larger population sizes, and evolution over a greater number of rounds all encourage diversification.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLOS ONE}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Effects of Selection Stringency on the Outcomes of Directed Evolution}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{19}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e0311438}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0311438
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\7KWFUKVS\Alpay and Desai - 2024 - Effects of selection stringency on the outcomes of directed evolution.pdf
+      \endverb
+      \keyw{Deletion mutation,Directed evolution,Evolutionary adaptation,Fitness epistasis,Mutagenesis,Natural selection,Population size,Species diversity}
+    \endentry
+    \entry{khraishaComplexEconomicProblems2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ab8380dccb306f102c29fdc73fc9b1e0}{%
+           family={Khraisha},
+           familyi={K\bibinitperiod},
+           given={Tamer},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab8380dccb306f102c29fdc73fc9b1e0}
+      \strng{fullhash}{ab8380dccb306f102c29fdc73fc9b1e0}
+      \strng{bibnamehash}{ab8380dccb306f102c29fdc73fc9b1e0}
+      \strng{authorbibnamehash}{ab8380dccb306f102c29fdc73fc9b1e0}
+      \strng{authornamehash}{ab8380dccb306f102c29fdc73fc9b1e0}
+      \strng{authorfullhash}{ab8380dccb306f102c29fdc73fc9b1e0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recently, a new line of interdisciplinary research in economics, coined complexity economics, has emerged premised on the assumption that the economy should be treated as a complex system. Complexity economists borrow concepts and theories from evolutionary biology such as emergent-phenomena, positive-feedback, self-organization, and diversity. The stated goal of this new subfield is to create more realistic and detailed models of the economy. One popular approach to modeling involves the use of ``fitness landscapes'' to generate solutions spaces in the search for optima and to model adaptive behavior. Here, in place of production or utility functions, a fitness function provides a simplified, Darwinian evaluation of performance. But recently, there has been a turn toward self-reflection and criticality in the literature; specifically, a debate has surfaced over the limitations of the fitness landscape approach. Par example is the 2014 article titled ``Economic Opportunity and Evolution: Beyond Landscapes and Bounded Rationality'' appearing in Strategic Entrepreneurship Journal. The authors contest that existing fitness landscapes neglect the emergence of novelty -- implicating an ever-changing solution space. However, novelty is not the only limitation of modeling economic phenomena using the fitness landscape. In this paper, I present a methodological assessment of the extant literature in an effort to redraw our attention to the limitations of the fitness landscape in achieving the goal of more realistic and detailed models. Are fitness landscapes serving this goal? If no, what are the limitations? And most importantly, how do we face the challenges head on?}
+      \field{issn}{0954-349X}
+      \field{journaltitle}{Structural Change and Economic Dynamics}
+      \field{month}{3}
+      \field{shorttitle}{Complex Economic Problems and Fitness Landscapes}
+      \field{title}{Complex Economic Problems and Fitness Landscapes: {{Assessment}} and Methodological Perspectives}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{52}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{390\bibrangedash 407}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.strueco.2019.01.002
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\QW7BCTH9\S0954349X18303485.html
+      \endverb
+      \keyw{Adaptation,Complex economic problem,Evolution,Fitness landscape,Search}
+    \endentry
+    \entry{siggelkowFirmsSystemsInterdependent2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ccff815b812a6a91bf69b3c5c6793d01}{%
+           family={Siggelkow},
+           familyi={S\bibinitperiod},
+           given={Nicolaj},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{fullhash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{bibnamehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{authorbibnamehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{authornamehash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \strng{authorfullhash}{ccff815b812a6a91bf69b3c5c6793d01}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Managers within firms have to make choices along a large number of dimensions; for instance, how to configure activities involving manufacturing and marketing, and which organizational design to employ. Since these choices interact with each other, firms can be conceived of as systems of interdependent choices. In this article, I discuss research that addresses three questions that naturally arise in this context. First, how do such systems evolve over time? Second, what role does organizational design play in whether a firm will arrive at a consistent and high-performing set of choices? Third, what are the consequences of cognitive limitations by decision makers when faced with such complex systems? The article concludes by sketching out possible future directions of research in this domain.}
+      \field{issn}{0022-2380, 1467-6486}
+      \field{journaltitle}{Journal of Management Studies}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{5}
+      \field{title}{Firms as {{Systems}} of {{Interdependent Choices}}}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{48}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{1126\bibrangedash 1140}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/j.1467-6486.2011.01010.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\EX754VQC\Siggelkow - 2011 - Firms as Systems of Interdependent Choices.pdf
+      \endverb
+    \endentry
     \entry{neidhartAdaptationTunablyRugged2014}{article}{}
       \name{author}{3}{}{%
         {{hash=22a03a2917f39e61fc9557a8b73d9fe3}{%
@@ -43,8 +1284,8 @@
       \strng{authorbibnamehash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
       \strng{authornamehash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
       \strng{authorfullhash}{997aa9a4f2cab13b6996c6d2ca36fb6b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Much of the current theory of adaptation is based on Gillespie's mutational landscape model (MLM), which assumes that the fitness values of genotypes linked by single mutational steps are independent random variables. On the other hand, a growing body of empirical evidence shows that real fitness landscapes, while possessing a considerable amount of ruggedness, are smoother than predicted by the MLM. In the present article we propose and analyze a simple fitness landscape model with tunable ruggedness based on the rough Mount Fuji (RMF) model originally introduced by Aita et al. in the context of protein evolution. We provide a comprehensive collection of results pertaining to the topographical structure of RMF landscapes, including explicit formulas for the expected number of local fitness maxima, the location of the global peak, and the fitness correlation function. The statistics of single and multiple adaptive steps on the RMF landscape are explored mainly through simulations, and the results are compared to the known behavior in the MLM model. Finally, we show that the RMF model can explain the large number of second-step mutations observed on a highly fit first-step background in a recent evolution experiment with a microvirid bacteriophage.}
@@ -143,8 +1384,8 @@
       \strng{authorbibnamehash}{d201e7f63365e66026d45598bcbdbfe0}
       \strng{authornamehash}{d201e7f63365e66026d45598bcbdbfe0}
       \strng{authorfullhash}{d201e7f63365e66026d45598bcbdbfe0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Understanding the population genetics of complex polygenic traits during adaptation is challenging.Here, we implement a forward-in-time population-genetic simulator (STUN) based on Wright-Fisher dynamics. STUN is a flexible and user-friendly software package for simulating the polygenic adaptation of recombining haploid populations using either new mutations or standing genetic variation. STUN assumes that populations adapt to sudden environmental changes by undergoing selection on a new fitness landscape. With pre-implemented fitness landscape models like Rough Mount Fuji, NK, Block, additive, and House-of-Cards, users can explore the effect of different levels of epistasis (ruggedness of the fitness landscape). Custom fitness landscapes and recombination maps can also be defined. STUN empowers both experimentalists and advanced programmers to study the evolution of complex polygenic traits and to dissect the adaptation process.STUN is implemented in Rust. Its source code is available at https://github.com/banklab/STUN and archived on Zenodo under doi: 10.5281/zenodo.10246377. The repository includes a link to the software's manual and binary files for Linux, macOS and Windows.}
@@ -170,8 +1411,8 @@
       \endverb
     \endentry
     \entry{JuliaRandomRandom123jl2024}{misc}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{abstract}{Julia implementation of Random123.}
       \field{howpublished}{JuliaRandom}
@@ -218,8 +1459,8 @@
       \strng{authorbibnamehash}{41340751e16a4ff0dcda85f6a89b8bb7}
       \strng{authornamehash}{41340751e16a4ff0dcda85f6a89b8bb7}
       \strng{authorfullhash}{7760d76683dccdf5129bf929d5e9dedd}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Most pseudorandom number generators (PRNGs) scale poorly to massively parallel high-performance computation because they are designed as sequentially dependent state transformations. We demonstrate that independent, keyed transformations of counters produce a large alternative class of PRNGs with excellent statistical properties (long period, no discernable structure or correlation). These counter-based PRNGs are ideally suited to modern multi-core CPUs, GPUs, clusters, and special-purpose hardware because they vectorize and parallelize well, and require little or no memory for state. We introduce several counter-based PRNGs: some based on cryptographic standards (AES, Threefish) and some completely new (Philox). All our PRNGs pass rigorous statistical tests (including TestU01's BigCrush) and produce at least 264 unique parallel streams of random numbers, each with period 2128 or more. In addition to essentially unlimited parallel scalability, our PRNGs offer excellent single-chip performance: Philox is faster than the CURAND library on a single NVIDIA GPU.}
@@ -242,6 +1483,210 @@
       \verb{file}
       \verb C:\Users\hughr\Zotero\storage\63FE8UWL\Salmon et al. - 2011 - Parallel random numbers as easy as 1, 2, 3.pdf
       \endverb
+    \endentry
+    \entry{woodsSecondOrderSelectionEvolvability2011}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6cc75bb6cf408dec60f877f0353d295e}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bd617c1d57bad68fe2d2e96a0a096c8f}{%
+           family={Barrick},
+           familyi={B\bibinitperiod},
+           given={Jeffrey\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dbb8d792818bc6cb76ec52a0a2c60a73}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Tim\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=4420c1fb6a910e86ed88368d6a229df9}{%
+           family={Shrestha},
+           familyi={S\bibinitperiod},
+           given={Utpala},
+           giveni={U\bibinitperiod}}}%
+        {{hash=c392341a59a3bc45344328f6acdd9a89}{%
+           family={Kauth},
+           familyi={K\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=af829dacaf04a65fbf5e03f5d37f3134}{%
+           family={Lenski},
+           familyi={L\bibinitperiod},
+           given={Richard\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{4d01019940f6ce91ae181dc700223e51}
+      \strng{fullhash}{724891569130f85d16381aa648a96c06}
+      \strng{bibnamehash}{4d01019940f6ce91ae181dc700223e51}
+      \strng{authorbibnamehash}{4d01019940f6ce91ae181dc700223e51}
+      \strng{authornamehash}{4d01019940f6ce91ae181dc700223e51}
+      \strng{authorfullhash}{724891569130f85d16381aa648a96c06}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In theory, competition between asexual lineages can lead to second-order selection for greater evolutionary potential. To test this hypothesis, we revived a frozen population of Escherichia coli from a long-term evolution experiment and compared the fitness and ultimate fates of four genetically distinct clones. Surprisingly, two clones with beneficial mutations that would eventually take over the population had significantly lower competitive fitness than two clones with mutations that later went extinct. By replaying evolution many times from these clones, we showed that the eventual winners likely prevailed because they had greater potential for further adaptation. Genetic interactions that reduce the benefit of certain regulatory mutations in the eventual losers appear to explain, at least in part, why they were outcompeted.}
+      \field{journaltitle}{Science}
+      \field{month}{3}
+      \field{number}{6023}
+      \field{title}{Second-{{Order Selection}} for {{Evolvability}} in a {{Large Escherichia}} Coli {{Population}}}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{331}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{1433\bibrangedash 1436}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1198914
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\EQEK4JSA\Woods et al. - 2011 - Second-Order Selection for Evolvability in a Large Escherichia coli Population.pdf
+      \endverb
+    \endentry
+    \entry{orthWhatFluxBalance2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2a429d4f552ad86277871a715ca53124}{%
+           family={Orth},
+           familyi={O\bibinitperiod},
+           given={Jeffrey\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2e0f1047352d52b2df4e335ddb5885c5}{%
+           family={Thiele},
+           familyi={T\bibinitperiod},
+           given={Ines},
+           giveni={I\bibinitperiod}}}%
+        {{hash=602bb2352ab8de3f4a1815d96d352a2b}{%
+           family={Palsson},
+           familyi={P\bibinitperiod},
+           given={Bernhard\bibnamedelima {Ø}},
+           giveni={B\bibinitperiod\bibinitdelim Ø\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
+      \strng{fullhash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
+      \strng{bibnamehash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
+      \strng{authorbibnamehash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
+      \strng{authornamehash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
+      \strng{authorfullhash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Flux balance analysis is a mathematical approach for analyzing the flow of metabolites through a metabolic network. This primer covers the theoretical basis of the approach, several practical examples and a software toolbox for performing the calculations.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{What Is Flux Balance Analysis?}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{28}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{245\bibrangedash 248}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nbt.1614
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\ZRKQTLB6\Orth et al. - 2010 - What is flux balance analysis.pdf
+      \endverb
+      \keyw{Biochemical reaction networks,Biotechnology,Metabolism}
+    \endentry
+    \entry{sanchez-pascualaRefactoringEmbdenMeyerhof2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=11a72ee9ef2ca7c56529d0e7ed229157}{%
+           family={{Sánchez-Pascuala}},
+           familyi={S\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c4ebc9c149c6c7a20de12c83fc69921a}{%
+           family={{de Lorenzo}},
+           familyi={d\bibinitperiod},
+           given={Víctor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cdf590e76a293ebafabb282ccccd75cc}{%
+           family={Nikel},
+           familyi={N\bibinitperiod},
+           given={Pablo\bibnamedelima I.},
+           giveni={P\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{817f8d164851ced63c4e3bfb14b5d396}
+      \strng{fullhash}{817f8d164851ced63c4e3bfb14b5d396}
+      \strng{bibnamehash}{817f8d164851ced63c4e3bfb14b5d396}
+      \strng{authorbibnamehash}{817f8d164851ced63c4e3bfb14b5d396}
+      \strng{authornamehash}{817f8d164851ced63c4e3bfb14b5d396}
+      \strng{authorfullhash}{817f8d164851ced63c4e3bfb14b5d396}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{, The Embden--Meyerhof--Parnas (EMP) pathway is generally considered to be the biochemical standard for glucose catabolism. Alas, its native genomic organization and the control of gene expression in Escherichia coli are both very intricate, which limits the portability of the EMP pathway to other biotechnologically important bacterial hosts that lack the route. In this work, the genes encoding all the enzymes of the linear EMP route have been individually recruited from the genome of E.~coli K-12, edited in silico to remove their endogenous regulatory signals, and synthesized de novo following a standard (GlucoBrick) that enables their grouping in the form of functional modules at the user's will. After verifying their activity in several glycolytic mutants of E.~coli, the versatility of these GlucoBricks was demonstrated in quantitative physiology tests and biochemical assays carried out in Pseudomonas putida KT2440 and P.~aeruginosa PAO1 as the heterologous hosts. Specific configurations of GlucoBricks were also adopted to streamline the downward circulation of carbon from hexoses to pyruvate in E.~coli recombinants, thereby resulting in a 3-fold increase of poly(3-hydroxybutyrate) synthesis from glucose. Refactoring whole metabolic blocks in the fashion described in this work thus eases the engineering of biochemical processes where the optimization of carbon traffic is facilitated by the operation of the EMP pathway---which yields more ATP than other glycolytic routes such as the Entner--Doudoroff pathway.}
+      \field{issn}{2161-5063}
+      \field{journaltitle}{ACS Synthetic Biology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Refactoring the {{Embden}}--{{Meyerhof}}--{{Parnas Pathway}} as a {{Whole}} of {{Portable GlucoBricks}} for {{Implantation}} of {{Glycolytic Modules}} in {{Gram-Negative Bacteria}}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{793\bibrangedash 805}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1021/acssynbio.6b00230
+      \endverb
+      \verb{file}
+      \verb C:\Users\hughr\Zotero\storage\YQTWBDP5\Sánchez-Pascuala et al. - 2017 - Refactoring the Embden–Meyerhof–Parnas Pathway as a Whole of Portable GlucoBricks for Implantation o.pdf
+      \endverb
+    \endentry
+    \entry{conwayEntnerDoudoroffPathwayHistory1992}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8adbb43e366bb4d5a5312440ed200203}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8adbb43e366bb4d5a5312440ed200203}
+      \strng{fullhash}{8adbb43e366bb4d5a5312440ed200203}
+      \strng{bibnamehash}{8adbb43e366bb4d5a5312440ed200203}
+      \strng{authorbibnamehash}{8adbb43e366bb4d5a5312440ed200203}
+      \strng{authornamehash}{8adbb43e366bb4d5a5312440ed200203}
+      \strng{authorfullhash}{8adbb43e366bb4d5a5312440ed200203}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Entner-Doudoroff pathway is now known to be very widely distributed in nature. Biochemical and physiological studies show that the Entner-Doudoroff pathway can operate in a linear and catabolic mode, in a 'cyclic' mode, in a modified mode involving non-phosphorylated intermediates, or in alternative modes involving C1 metabolism and anabolism. Molecular and genetic analyses of the Entner-Doudoroff pathway in Zymomonas mobilis, Escherichia coli and Pseudomonas aeruginosa have led to an improved understanding of some fundamental aspects of metabolic controls. It can be argued that the Entner-Doudoroff pathway is more primitive than Embden-Meyerhof-Parnas glycolysis.}
+      \field{issn}{0168-6445}
+      \field{journaltitle}{FEMS microbiology reviews}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{1}
+      \field{shorttitle}{The {{Entner-Doudoroff}} Pathway}
+      \field{title}{The {{Entner-Doudoroff}} Pathway: History, Physiology and Molecular Biology}
+      \field{volume}{9}
+      \field{year}{1992}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1111/j.1574-6968.1992.tb05822.x
+      \endverb
+      \keyw{Amino Acid Sequence,Bacteria,Biological Evolution,Glycolysis,Molecular Sequence Data}
     \endentry
   \enddatalist
 \endrefsection

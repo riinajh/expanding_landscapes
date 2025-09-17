@@ -36,7 +36,7 @@ ggplot(data, aes(x = loci_diff, y = as.factor(timepoint), fill = as.factor(Loci)
        color = "Loci") +
   theme(plot.title = element_text(hjust = 0.5)) +
   theme_minimal()
-ggsave("output/uniform_additive_t_eq.png", bg = "transparent")
+ggsave("outputs/figures/uniform_additive_t_eq.pdf", bg = "transparent")
 
 # Now determine if the variable additive landscapes are randomly walking at a 50-25-25% ratio. 
 
@@ -58,4 +58,4 @@ ggplot(df02, aes(y = value, group = loci, fill = loci, color = loci)) +
   geom_hline(yintercept = mean(df02$value), color= "black", lty = 2) +
   theme(plot.title = element_text(hjust = 0.5)) +
   theme_minimal()
-ggsave("output/uniform_additive_rep124.png", bg = "transparent")
+ggsave("outputs/figures/additive_densities_rep6.pdf", bg = "transparent")
