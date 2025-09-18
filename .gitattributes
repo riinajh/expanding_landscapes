@@ -1,3 +1,1 @@
-* linguist-vendored
-*.jl linguist-vendored=false
-*.R linguist-vendored=false
+*.ipynb linguist-language=julia
