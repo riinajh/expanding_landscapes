@@ -142,6 +142,45 @@
       \verb C:\Users\hughr\Zotero\storage\UHL888K7\Lynch and Conery - 2003 - The Origins of Genome Complexity.pdf
       \endverb
     \endentry
+    \entry{wagnerMolecularOriginsEvolutionary2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8fd3a8379cbda9c60f92e446330e16fb}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8fd3a8379cbda9c60f92e446330e16fb}
+      \strng{fullhash}{8fd3a8379cbda9c60f92e446330e16fb}
+      \strng{bibnamehash}{8fd3a8379cbda9c60f92e446330e16fb}
+      \strng{authorbibnamehash}{8fd3a8379cbda9c60f92e446330e16fb}
+      \strng{authornamehash}{8fd3a8379cbda9c60f92e446330e16fb}
+      \strng{authorfullhash}{8fd3a8379cbda9c60f92e446330e16fb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9525}
+      \field{journaltitle}{Trends in Genetics}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{The Molecular Origins of Evolutionary Innovations}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{27}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{397\bibrangedash 410}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.tig.2011.06.002
+      \endverb
+    \endentry
     \entry{barveLatentCapacityEvolutionary2013}{article}{}
       \name{author}{2}{}{%
         {{hash=a511e940ce432446f2cab18a14fe7b8d}{%
@@ -164,8 +203,8 @@
       \strng{authorbibnamehash}{025f93d628cebc150829651369ea32f6}
       \strng{authornamehash}{025f93d628cebc150829651369ea32f6}
       \strng{authorfullhash}{025f93d628cebc150829651369ea32f6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A computational analysis of the ability of a metabolic reaction network to synthesize all biomass from a single source of carbon and energy shows that when such networks are required to be viable on one particular carbon source, they are typically also viable on multiple other carbon sources that were not targets of selection.}
@@ -240,8 +279,8 @@
       \strng{authorbibnamehash}{3b13eb565718e28f8b44a601b1030119}
       \strng{authornamehash}{3b13eb565718e28f8b44a601b1030119}
       \strng{authorfullhash}{15eabe581888ec4ddb3ce64184f1d657}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Transcriptional enhancers orchestrate cell type- and time point-specific gene expression programs. Genetic variation within enhancer sequences is an important contributor to phenotypic variation including evolutionary adaptations and human disease. Certain genes and pathways may be more prone to regulatory evolution than others, with different patterns across diverse organisms, but whether such patterns exist has not been investigated at a sufficient scale. To address this question, we identified signatures of accelerated sequence evolution in conserved enhancer elements throughout the mammalian phylogeny at an unprecedented scale. While different genes and pathways were enriched for regulatory evolution in different parts of the tree, we found a striking overall pattern of pleiotropic genes involved in gene regulatory and developmental processes being enriched for accelerated enhancer evolution. These genes were connected to more enhancers than other genes, which was the basis for having an increased amount of sequence acceleration over all their enhancers combined. We provide evidence that sequence acceleration is associated with turnover of regulatory function. Detailed study of one acceleration event in an enhancer of HES1 revealed that sequence evolution led to a new activity domain in the developing limb that emerged concurrently with the evolution of digit reduction in hoofed mammals. Our results provide evidence that enhancer evolution has been a frequent contributor to regulatory innovation at conserved developmental signaling genes in mammals.}
@@ -274,8 +313,8 @@
       \strng{authorbibnamehash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
       \strng{authornamehash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
       \strng{authorfullhash}{9c4037c9d63e8f6b91c7c6faacf9cccf}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0003-1569}
@@ -321,8 +360,8 @@
       \strng{authorbibnamehash}{dd7a9b5925807be21df682d3d65fd672}
       \strng{authornamehash}{dd7a9b5925807be21df682d3d65fd672}
       \strng{authorfullhash}{6d59a13cebfd1e2f0b9c89024ad1b584}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The evolutionary role of transposable elements (TEs) is still highly controversial. Two key parameters, the transposition rate (u and w, for replicative and non-replicative transposition) and the excision rate (e) are fundamental to understanding their evolution and maintenance in populations. We have estimated u, w and e for six families of TEs (including eight members: IS1, IS2, IS3, IS4, IS5, IS30, IS150 and IS186) in Escherichia coli, using a mutation accumulation (MA) experiment. In this experiment, mutations accumulate essentially at the rate at which they appear, during a period of 80 500 (1610 generations {\texttimes} 50 lines) generations, and spontaneous transposition events can be detected. This differs from other experiments in which insertions accumulated under strong selective pressure or over a limited genomic target. We therefore provide new estimates for the spontaneous rates of transposition and excision in E. coli. We observed 25 transposition and three excision events in 50 MA lines, leading to overall rate estimates of u {$\sim$} 1.15 {\texttimes} 10--5, w {$\sim$} 4 {\texttimes} 10-8 and e {$\sim$} 1.08 {\texttimes} 10-6 (per element, per generation). Furthermore, extensive variation between elements was found, consistent with previous knowledge of the mechanisms and regulation of transposition for the different elements.}
@@ -385,8 +424,8 @@
       \strng{authorbibnamehash}{83c8e9c9d4f757c8720a01749b92b0d0}
       \strng{authornamehash}{83c8e9c9d4f757c8720a01749b92b0d0}
       \strng{authorfullhash}{e2c4ad2785a9a92f4a0479a16b234963}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Gene and genome duplications are the primary source of new genes and novel functions and have played a pivotal role in the evolution of genomic and organismal complexity [1, 2]. The spontaneous rate of gene duplication is a critical parameter for understanding the evolutionary dynamics of gene duplicates; yet few direct empirical estimates exist and differ widely. The presence of a large population of recently derived gene duplicates in sequenced genomes suggests a high rate of spontaneous origin, also evidenced by population genomic studies reporting rampant copy-number polymorphism at the intraspecific level [3, 4, 5, 6]. An analysis of long-term mutation accumulation lines of Caenorhabditis elegans for gene copy-number changes with array comparative genomic hybridization yields the first direct estimate of the genome-wide rate of gene duplication in a multicellular eukaryote. The gene duplication rate in C.~elegans is quite high, on the order of 10-7 duplications/gene/generation. This rate is two orders of magnitude greater than the spontaneous rate of point mutation per nucleotide site in this species and also greatly exceeds an earlier estimate derived from the frequency distribution of extant gene duplicates in the sequenced C. elegans genome.}
@@ -429,8 +468,8 @@
       \strng{authorbibnamehash}{e077ec89058af027307e5f287fae56d7}
       \strng{authornamehash}{e077ec89058af027307e5f287fae56d7}
       \strng{authorfullhash}{e077ec89058af027307e5f287fae56d7}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Changes in gene copy number are among the most frequent mutational events in all genomes and were among the mutations for which a physical basis was first known. Yet mechanisms of gene duplication remain uncertain because formation rates are difficult to measure and mechanisms may vary with position in a genome. Duplications are compared here to deletions, which seem formally similar but can arise at very different rates by distinct mechanisms. Methods of assessing duplication rates and dependencies are described with several proposed formation mechanisms. Emphasis is placed on duplications formed in extensively studied experimental situations. Duplications studied in microbes are compared with those observed in metazoan cells, specifically those in genomes of cancer cells. Duplications, and especially their derived amplifications, are suggested to form by multistep processes often under positive selection for increased copy number., Gene duplications are one of the oldest and most frequent types of mutation. Genetic approaches are being used to dissect the mechanisms by which they form.}
@@ -1110,8 +1149,8 @@
       \strng{authorbibnamehash}{133dd2f416feb6022e6a4aaff545aa83}
       \strng{authornamehash}{133dd2f416feb6022e6a4aaff545aa83}
       \strng{authorfullhash}{378bc00b17774f00d138447e87e2e423}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Fitness landscape theory predicts that rugged landscapes with multiple peaks impair Darwinian evolution, but experimental evidence is limited. In this study, we used genome editing to map the fitness of {$>$}260,000 genotypes of the key metabolic enzyme dihydrofolate reductase in the presence of the antibiotic trimethoprim, which targets this enzyme. The resulting landscape is highly rugged and harbors 514 fitness peaks. However, its highest peaks are accessible to evolving populations via abundant fitness-increasing paths. Different peaks share large basins of attraction that render the outcome of adaptive evolution highly contingent on chance events. Our work shows that ruggedness need not be an obstacle to Darwinian evolution but can reduce its predictability. If true in general, the complexity of optimization problems on realistic landscapes may require reappraisal.}
@@ -1577,8 +1616,8 @@
       \strng{authorbibnamehash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
       \strng{authornamehash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
       \strng{authorfullhash}{9ee45f7eab522c64f13ac2eb5b7bf66f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Flux balance analysis is a mathematical approach for analyzing the flow of metabolites through a metabolic network. This primer covers the theoretical basis of the approach, several practical examples and a software toolbox for performing the calculations.}

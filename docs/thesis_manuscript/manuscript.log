@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.25)  17 SEP 2025 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.25)  17 SEP 2025 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,15 +840,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<figures/simple_landscape.png, id=58, 1827.82875pt x 690.78075pt>
+<figures/simple_landscape.png, id=60, 1827.82875pt x 690.78075pt>
 File: figures/simple_landscape.png Graphic file (type png)
 <use figures/simple_landscape.png>
 Package pdftex.def Info: figures/simple_landscape.png  used on input line 134.
 (pdftex.def)             Requested size: 209.12683pt x 79.0323pt.
- [2 <./figures/simple_landscape.png>] [3]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 3482) has occurred while \output is active []
+
+ [3 <./figures/simple_landscape.png>]
 
 pdfTeX warning: pdflatex (file ./figures/prng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/prng.pdf, id=99, 279.5745pt x 51.27155pt>
+<figures/prng.pdf, id=100, 279.5745pt x 51.27155pt>
 File: figures/prng.pdf Graphic file (type pdf)
 <use figures/prng.pdf>
 Package pdftex.def Info: figures/prng.pdf  used on input line 153.
@@ -856,7 +866,7 @@ Package pdftex.def Info: figures/prng.pdf  used on input line 153.
 
 
 pdfTeX warning: pdflatex (file ./figures/cbrng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/cbrng.pdf, id=100, 276.2019pt x 33.55536pt>
+<figures/cbrng.pdf, id=101, 276.2019pt x 33.55536pt>
 File: figures/cbrng.pdf Graphic file (type pdf)
 <use figures/cbrng.pdf>
 Package pdftex.def Info: figures/cbrng.pdf  used on input line 155.
@@ -864,7 +874,7 @@ Package pdftex.def Info: figures/cbrng.pdf  used on input line 155.
 [4 <./figures/prng.pdf> <./figures/cbrng.pdf>] [5]
 
 pdfTeX warning: pdflatex (file ./figures/L20l1i1_20250902_1035.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/L20l1i1_20250902_1035.pdf, id=144, 490.83376pt x 630.355pt>
+<figures/L20l1i1_20250902_1035.pdf, id=146, 490.83376pt x 630.355pt>
 File: figures/L20l1i1_20250902_1035.pdf Graphic file (type pdf)
 <use figures/L20l1i1_20250902_1035.pdf>
 Package pdftex.def Info: figures/L20l1i1_20250902_1035.pdf  used on input line 192.
@@ -872,7 +882,7 @@ Package pdftex.def Info: figures/L20l1i1_20250902_1035.pdf  used on input line 1
 
 
 pdfTeX warning: pdflatex (file ./figures/L20l10i1_20250902_1035.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/L20l10i1_20250902_1035.pdf, id=145, 490.83376pt x 630.355pt>
+<figures/L20l10i1_20250902_1035.pdf, id=147, 490.83376pt x 630.355pt>
 File: figures/L20l10i1_20250902_1035.pdf Graphic file (type pdf)
 <use figures/L20l10i1_20250902_1035.pdf>
 Package pdftex.def Info: figures/L20l10i1_20250902_1035.pdf  used on input line 193.
@@ -880,12 +890,12 @@ Package pdftex.def Info: figures/L20l10i1_20250902_1035.pdf  used on input line 
 
 
 pdfTeX warning: pdflatex (file ./figures/L20l20i1_20250902_1035.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/L20l20i1_20250902_1035.pdf, id=146, 490.83376pt x 630.355pt>
+<figures/L20l20i1_20250902_1035.pdf, id=148, 490.83376pt x 630.355pt>
 File: figures/L20l20i1_20250902_1035.pdf Graphic file (type pdf)
 <use figures/L20l20i1_20250902_1035.pdf>
 Package pdftex.def Info: figures/L20l20i1_20250902_1035.pdf  used on input line 195.
 (pdftex.def)             Requested size: 138.02448pt x 177.25804pt.
-<figures/random_walk_additive.pdf, id=147, 476.78125pt x 397.485pt>
+<figures/random_walk_additive.pdf, id=149, 476.78125pt x 397.485pt>
 File: figures/random_walk_additive.pdf Graphic file (type pdf)
 <use figures/random_walk_additive.pdf>
 Package pdftex.def Info: figures/random_walk_additive.pdf  used on input line 196.
@@ -922,41 +932,34 @@ File: figures/06-6_initialfinalsize_2.pdf Graphic file (type pdf)
 <use figures/06-6_initialfinalsize_2.pdf>
 Package pdftex.def Info: figures/06-6_initialfinalsize_2.pdf  used on input line 229.
 (pdftex.def)             Requested size: 139.27536pt x 115.38293pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [8 <./figures/05-2_static_finalfitness.pdf> <./figures/06-1_expanding_initialsize_fitness.pdf> <./figures/06-4_expanding_initialsizefitness_2.pdf> <./figures/06-3_expanding_initialfinalsize.pdf> <./figures/06-6_initialfinalsize_2.pdf>]
-<figures/genome_trajectories.pdf, id=251, 479.7925pt x 397.485pt>
+<figures/genome_trajectories.pdf, id=255, 479.7925pt x 397.485pt>
 File: figures/genome_trajectories.pdf Graphic file (type pdf)
 <use figures/genome_trajectories.pdf>
 Package pdftex.def Info: figures/genome_trajectories.pdf  used on input line 259.
 (pdftex.def)             Requested size: 167.2989pt x 138.60022pt.
-<figures/endpoint_boxplots.pdf, id=252, 479.7925pt x 397.485pt>
+<figures/endpoint_boxplots.pdf, id=256, 479.7925pt x 397.485pt>
 File: figures/endpoint_boxplots.pdf Graphic file (type pdf)
 <use figures/endpoint_boxplots.pdf>
 Package pdftex.def Info: figures/endpoint_boxplots.pdf  used on input line 260.
 (pdftex.def)             Requested size: 167.2989pt x 138.60022pt.
-<figures/timings.pdf, id=253, 479.7925pt x 397.485pt>
+<figures/timings.pdf, id=257, 479.7925pt x 397.485pt>
 File: figures/timings.pdf Graphic file (type pdf)
 <use figures/timings.pdf>
 Package pdftex.def Info: figures/timings.pdf  used on input line 260.
 (pdftex.def)             Requested size: 167.2989pt x 138.60022pt.
-<figures/hoc_boxplots.pdf, id=254, 479.7925pt x 397.485pt>
+<figures/hoc_boxplots.pdf, id=258, 479.7925pt x 397.485pt>
 File: figures/hoc_boxplots.pdf Graphic file (type pdf)
 <use figures/hoc_boxplots.pdf>
 Package pdftex.def Info: figures/hoc_boxplots.pdf  used on input line 260.
 (pdftex.def)             Requested size: 167.2989pt x 138.60022pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+ [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9] [10 <./figures/genome_trajectories.pdf> <./figures/endpoint_boxplots.pdf> <./figures/timings.pdf> <./figures/hoc_boxplots.pdf>]
+ [10 <./figures/genome_trajectories.pdf> <./figures/endpoint_boxplots.pdf> <./figures/timings.pdf> <./figures/hoc_boxplots.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/evolving_metabolism.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/evolving_metabolism.pdf, id=305, 136.35944pt x 208.32831pt>
+<figures/evolving_metabolism.pdf, id=308, 136.35944pt x 208.32831pt>
 File: figures/evolving_metabolism.pdf Graphic file (type pdf)
 <use figures/evolving_metabolism.pdf>
 Package pdftex.def Info: figures/evolving_metabolism.pdf  used on input line 282.
@@ -964,27 +967,27 @@ Package pdftex.def Info: figures/evolving_metabolism.pdf  used on input line 282
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11] [12 <./figures/evolving_metabolism.pdf>] [13] [14] [15]
-<figures/mean_peak_scaling.pdf, id=417, 480.79625pt x 397.485pt>
+[11] [12 <./figures/evolving_metabolism.pdf>]
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
+ [13] [14] [15]
+<figures/mean_peak_scaling.pdf, id=423, 480.79625pt x 397.485pt>
 File: figures/mean_peak_scaling.pdf Graphic file (type pdf)
 <use figures/mean_peak_scaling.pdf>
 Package pdftex.def Info: figures/mean_peak_scaling.pdf  used on input line 309.
 (pdftex.def)             Requested size: 209.12683pt x 172.89244pt.
-<figures/genome_trajectories_unfiltered.pdf, id=418, 479.7925pt x 397.485pt>
+ [16]
+<figures/genome_trajectories_unfiltered.pdf, id=430, 479.7925pt x 397.485pt>
 File: figures/genome_trajectories_unfiltered.pdf Graphic file (type pdf)
 <use figures/genome_trajectories_unfiltered.pdf>
 Package pdftex.def Info: figures/genome_trajectories_unfiltered.pdf  used on input line 316.
 (pdftex.def)             Requested size: 167.2989pt x 138.60022pt.
-<figures/endpoint_boxplots_unfiltered.pdf, id=419, 479.7925pt x 397.485pt>
+<figures/endpoint_boxplots_unfiltered.pdf, id=431, 479.7925pt x 397.485pt>
 File: figures/endpoint_boxplots_unfiltered.pdf Graphic file (type pdf)
 <use figures/endpoint_boxplots_unfiltered.pdf>
 Package pdftex.def Info: figures/endpoint_boxplots_unfiltered.pdf  used on input line 317.
 (pdftex.def)             Requested size: 167.2989pt x 138.60022pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16 <./figures/mean_peak_scaling.pdf>] [17 <./figures/genome_trajectories_unfiltered.pdf> <./figures/endpoint_boxplots_unfiltered.pdf>] (./manuscript.aux)
+ [17 <./figures/mean_peak_scaling.pdf> <./figures/genome_trajectories_unfiltered.pdf> <./figures/endpoint_boxplots_unfiltered.pdf>] (./manuscript.aux)
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'manuscript.run.xml'.
@@ -992,18 +995,18 @@ Package logreq Info: Writing requests to 'manuscript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25951 strings out of 480247
- 486543 string characters out of 5896151
- 1355437 words of memory out of 5000000
- 43271 multiletter control sequences out of 15000+600000
- 486909 words of font info for 177 fonts, out of 8000000 for 9000
+ 25954 strings out of 480247
+ 486837 string characters out of 5896151
+ 1355588 words of memory out of 5000000
+ 43275 multiletter control sequences out of 15000+600000
+ 486858 words of font info for 176 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,14n,106p,10605b,1763s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on manuscript.pdf (18 pages, 3891165 bytes).
+Output written on manuscript.pdf (18 pages, 3892764 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 453 compressed objects within 5 object streams
+ 95 named destinations out of 1000 (max. 500000)
  32869 words of extra memory for PDF output out of 35830 (max. 10000000)
 

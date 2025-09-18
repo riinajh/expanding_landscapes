@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'manuscript.blg'
-[94] biber:340> INFO - === Wed Sep 17, 2025, 14:01:26
-[107] Biber.pm:418> INFO - Reading 'manuscript.bcf'
-[147] Biber.pm:972> INFO - Found 31 citekeys in bib section 0
-[154] Biber.pm:4383> INFO - Processing section 0
-[171] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[175] bibtex.pm:1713> INFO - LaTeX decoding ...
-[248] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
-[487] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[487] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[487] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[487] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[508] bbl.pm:654> INFO - Writing 'manuscript.bbl' with encoding 'UTF-8'
-[534] bbl.pm:757> INFO - Output to manuscript.bbl
+[53] biber:340> INFO - === Wed Sep 17, 2025, 22:29:05
+[70] Biber.pm:418> INFO - Reading 'manuscript.bcf'
+[119] Biber.pm:972> INFO - Found 32 citekeys in bib section 0
+[126] Biber.pm:4383> INFO - Processing section 0
+[135] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[140] bibtex.pm:1713> INFO - LaTeX decoding ...
+[184] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[357] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[357] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[357] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[357] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[372] bbl.pm:654> INFO - Writing 'manuscript.bbl' with encoding 'UTF-8'
+[394] bbl.pm:757> INFO - Output to manuscript.bbl
