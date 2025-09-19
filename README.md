@@ -2,9 +2,9 @@
 
 This repository contains code for an expanded Rough Mt. Fuji model that incorporates a mechanism of genome evolution. This serves as the foundational model for my MSc. thesis "A Computationally Tractable Model for the Evolution of Genome's Size and its Growing Fitness Landscape". 
 
-![](code/output/figures/metalandscape.pdf)
+![metalandscape](code/output/figures/metalandscape.pdf)
 
-The full text of the thesis can be found under `docs` and contains a full description of the model. Briefly, we describe the position of an individual on the fitness meta-landscape through its genome, and its position in any sub-landscape through its genotype, both represented as binary vectors. We then compute fitness as ![\[f_{G,g}=\exp\left(e_{G,g}+\displaystyle\sum_{i=0}^{L}a_i g_i\right)\]](https://latex.codecogs.com/svg.image?f_%7BG,g%7D=%5Cexp%5Cleft(e_%7BG,g%7D&plus;%5Cdisplaystyle%5Csum_%7Bi=0%7D%5E%7BL%7Da_i%20g_i%5Cright)) $f_{G,g} = \exp{\left(e_{G,g} + \displaystyle\sum_{i=0}^{L}a_{i} g_{i}\right)}}$, and subsequently simulate Wright-Fisher populations adapting on these landscapes. 
+The full text of the thesis can be found under `docs` and contains a full description of the model. Briefly, we describe the position of an individual on the fitness meta-landscape through its genome, and its position in any sub-landscape through its genotype, both represented as binary vectors. We then compute fitness as ![\[f_{G,g}=\exp\left(e_{G,g}+\displaystyle\sum_{i=0}^{L}a_i g_i\right)\]](https://latex.codecogs.com/svg.image?f_%7BG,g%7D=%5Cexp%5Cleft(e_%7BG,g%7D&plus;%5Cdisplaystyle%5Csum_%7Bi=0%7D%5E%7BL%7Da_i%20g_i%5Cright)), and subsequently simulate Wright-Fisher populations adapting on these landscapes. 
 
 # Usage
 
@@ -54,6 +54,6 @@ df_genotypes = simulate(loci, init_active_loci, max_init_genotype_bits, total_po
 
 And thereafter, the data can be processed into time-series plots with: `generate_plots(df_genotypes, μ, M, additive_effects, σ_epi, save = false)`, with an optional `save` argument, which writes a timestamped plot to `code/outputs/figures`
 
-![](L20l10i1_20250902_2038.pdf)
+![example plot](L20l10i1_20250902_2038.pdf)
 
 Additional analyses were performed in R. Corresponding datasets can be found in `code/outputs/data`. 
