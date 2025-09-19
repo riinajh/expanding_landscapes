@@ -2,9 +2,9 @@
 
 This repository contains code for an expanded Rough Mt. Fuji model that incorporates a mechanism of genome evolution. This serves as the foundational model for my MSc. thesis "A Computationally Tractable Model for the Evolution of Genome's Size and its Growing Fitness Landscape". 
 
-![metalandscape](code/outputs/figures/metalandscape.pdf)
+![metalandscape](./code/outputs/figures/metalandscape.png)
 
-The full text of the thesis can be found under `docs` and contains a full description of the model. Briefly, we describe the position of an individual on the fitness meta-landscape through its genome, and its position in any sub-landscape through its genotype, both represented as binary vectors. We then compute fitness as ![\[f_{G,g}=\exp\left(e_{G,g}+\displaystyle\sum_{i=0}^{L}a_i g_i\right)\]](https://latex.codecogs.com/svg.image?f_%7BG,g%7D=%5Cexp%5Cleft(e_%7BG,g%7D&plus;%5Cdisplaystyle%5Csum_%7Bi=0%7D%5E%7BL%7Da_i%20g_i%5Cright)), and subsequently simulate Wright-Fisher populations adapting on these landscapes. 
+The full text of the thesis can be found under `docs` and contains a full description of the model. Briefly, we describe the position of an individual on the fitness meta-landscape through its genome, and its position in any sub-landscape through its genotype, both represented as binary vectors. We then compute fitness as $$f_{G,g}=\exp\left(e_{G,g}+\displaystyle\sum_{i=0}^{L}a_i g_i\right)$$, and subsequently simulate Wright-Fisher populations adapting on these landscapes. 
 
 # Usage
 
