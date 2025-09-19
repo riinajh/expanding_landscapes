@@ -4,7 +4,7 @@ This repository contains code for an expanded Rough Mt. Fuji model that incorpor
 
 ![](code/output/figures/metalandscape.pdf)
 
-The full text of the thesis can be found under `docs` and contains a full description of the model. Briefly, we describe the position of an individual on the fitness meta-landscape through its genome, and its position in any sub-landscape through its genotype, both represented as binary vectors. We then compute fitness as <img src="https://latex.codecogs.com/svg.image?f_{G,g}=\exp\left(e_{G,g}&plus;\displaystyle\sum_{i=0}^{L}a_i&space;g_i\right)" title="f_{G,g}=\exp\left(e_{G,g}+\displaystyle\sum_{i=0}^{L}a_i g_i\right)" /> $f_{G,g} = \exp{\left(e_{G,g} + \displaystyle\sum_{i=0}^{L}a_{i} g_{i}\right)}}$, and subsequently simulate Wright-Fisher populations adapting on these landscapes. 
+The full text of the thesis can be found under `docs` and contains a full description of the model. Briefly, we describe the position of an individual on the fitness meta-landscape through its genome, and its position in any sub-landscape through its genotype, both represented as binary vectors. We then compute fitness as ![\[f_{G,g}=\exp\left(e_{G,g}+\displaystyle\sum_{i=0}^{L}a_i g_i\right)\]](https://latex.codecogs.com/svg.image?f_%7BG,g%7D=%5Cexp%5Cleft(e_%7BG,g%7D&plus;%5Cdisplaystyle%5Csum_%7Bi=0%7D%5E%7BL%7Da_i%20g_i%5Cright)) $f_{G,g} = \exp{\left(e_{G,g} + \displaystyle\sum_{i=0}^{L}a_{i} g_{i}\right)}}$, and subsequently simulate Wright-Fisher populations adapting on these landscapes. 
 
 # Usage
 
